@@ -1,0 +1,6 @@
+<param name="typeName">Имя типа, которое будет иметь новый класс. Экземпляры класса создаются оператором Новый.
+<example>ПодключитьСценарий("C:\file.os", "МойОбъект");
+А = Новый МойОбъект();</example>
+</param>
+[ContextMethod("Уничтожить", "Dispose")]
+public void Dispose(string typeName)
