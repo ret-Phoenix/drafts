@@ -90,7 +90,7 @@ namespace ScriptEngine.HostedScript.Library
         /// <param name="source">Имя файла-источника</param>
         /// <param name="destination">Имя файла приемника</param>
         [ContextMethod("ПереместитьФайл", "MoveFile")]
-        public void MoveFile(string source, string destination)
+        public void MoveFile(string source, string destination = "новыйпуть")
         {
             System.IO.File.Move(source, destination);
         }
@@ -102,7 +102,7 @@ namespace ScriptEngine.HostedScript.Library
         /// <param name="second"></param>
         /// <returns>-1 первая строка больше, 1 - вторая строка больше. 0 - строки равны</returns>
         [ContextMethod("СтрСравнить", "StrCompare")]
-        public int StrCompare(string first, string second)
+        public int StrCompare(string first="один", string second)
         {
             return String.Compare(first, second, true);
         }
