@@ -2,6 +2,9 @@
 Позволяет управлять процессом операционной системы. Получать текст из стандартных потоков,
 проверять активность, pid, завершать процесс и т.п.
 </summary>
+<remarks>
+Дополнительное описание свойства
+</remarks>
 [ContextClass("Процесс", "Process")]
 <summary>
 Устанавливает кодировку в которой будут считываться стандартные потоки вывода и ошибок.
@@ -33,8 +36,15 @@ public void MoveFile(string source, string destination = "новыйпуть")
 Сравнивает строки без учета регистра.
 </summary>
 <param name="first">описание1</param>
-<param name="second">описание2</param>
+<param name="second">описание2
+<example>
+ПримерРаботыСПараметром = Истина;
+</example>
+</param>
 <returns>-1 первая строка больше, 1 - вторая строка больше. 0 - строки равны</returns>
+<code>
+МояПеременная = 1;
+</code>
 [ContextMethod("СтрСравнить", "StrCompare")]
 public int StrCompare(string first="один", string second)
 <summary>
@@ -54,10 +64,19 @@ public void AttachAddIn(string dllPath)
 </summary>
 <returns>Строка. Путь к каталогу временных файлов</returns>
 [ContextMethod("КаталогВременныхФайлов", "TempFilesDir")]
+<code>
+codelin1();
+codelin2();
+codelin3();
+</code>
 public string TempFilesDir()
 <summary>
 Запустить процесс на выполнение.
 </summary>
+<example>
+ПримерКода = Истина;
+ещеКод = Истина;
+</example>
 [ContextMethod("Запустить", "Start")]
 public void Start()
 <param name="typeName">Имя типа, которое будет иметь новый класс. Экземпляры класса создаются оператором Новый.

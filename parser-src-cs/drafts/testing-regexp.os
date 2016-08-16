@@ -29,8 +29,15 @@
 
 // ТекстРегулярки = "\<param\s+name=\""(.*)\""\>[\s\S]\<\/param\>";
 // ТекстРегулярки = "\<param\s+name=\""(.*)\""\>(.*)\<\/param\>";
-ТекстРегулярки = "(?s)(?<=\<param\s+name=\""(.*)\""\>).*?(?=\<\/param\>)";
+ИсходнаяСтрока = "<exception cref=""System.Exception"">
+|Thrown when...
+|also
+|</exception>";
+ТекстРегулярки = "((?s)(?<=\<exception\s+cref=\""(.*)\""\>)(.*?)(?=\<\/exception\>))";
 
+
+ИсходнаяСтрока = "<para>Here's how you could make a second paragraph in a description. <see cref= ""System.Console.WriteLine(System.String)""/> for information about output statements.</para>";
+ТекстРегулярки = "((?s)(?<=\<see\s+cref=\s*\""(.*)\""\/>))";
 // ИсходнаяСтрока = "<div class=""b-idea__description"">Аудитория от 5 до 99 лет.
 // |Поддерживает модульность. межконтинентальную направленность.
 // |Препятствует гиподинамии</div>";
