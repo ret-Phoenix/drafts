@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<CommandBarLocation>None</CommandBarLocation>
+	<ReportResult/>
+	<DetailsData/>
+	<ReportFormType>Main</ReportFormType>
+	<VariantAppearance/>
+	<AutoShowState>Auto</AutoShowState>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<ChildItems>
+		<Button name="ПолучитьТесты" id="29">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ПолучитьТесты</CommandName>
+			<ExtendedTooltip name="ПолучитьТестыРасширеннаяПодсказка" id="30"/>
+		</Button>
+		<InputField name="ФайлаТеста" id="1">
+			<DataPath>1/0:98172e1a-8de8-414d-a5d4-ea51bbc7c73a</DataPath>
+			<ChoiceButton>true</ChoiceButton>
+			<ContextMenu name="ФайлаТестаКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ФайлаТестаРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<Table name="Тесты" id="4">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Отчет.Тесты</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ТестыКонтекстноеМеню" id="5"/>
+			<AutoCommandBar name="ТестыКоманднаяПанель" id="6"/>
+			<ExtendedTooltip name="ТестыРасширеннаяПодсказка" id="7"/>
+			<SearchStringAddition name="ТестыСтрокаПоиска" id="8">
+				<AdditionSource>
+					<Item>Тесты</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТестыСтрокаПоискаКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="ТестыСтрокаПоискаРасширеннаяПодсказка" id="10"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ТестыСостояниеПросмотра" id="11">
+				<AdditionSource>
+					<Item>Тесты</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТестыСостояниеПросмотраКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ТестыСостояниеПросмотраРасширеннаяПодсказка" id="13"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ТестыУправлениеПоиском" id="14">
+				<AdditionSource>
+					<Item>Тесты</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ТестыУправлениеПоискомКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="ТестыУправлениеПоискомРасширеннаяПодсказка" id="16"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ТестыНомерСтроки" id="17">
+					<DataPath>Отчет.Тесты.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТестыНомерСтрокиКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="ТестыНомерСтрокиРасширеннаяПодсказка" id="19"/>
+				</LabelField>
+				<CheckBoxField name="ТестыВыполнять" id="20">
+					<DataPath>Отчет.Тесты.Выполнять</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ТестыВыполнятьКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ТестыВыполнятьРасширеннаяПодсказка" id="22"/>
+				</CheckBoxField>
+				<InputField name="ТестыИмяТеста" id="23">
+					<DataPath>Отчет.Тесты.ИмяТеста</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТестыИмяТестаКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ТестыИмяТестаРасширеннаяПодсказка" id="25"/>
+				</InputField>
+				<InputField name="ТестыРезультат" id="26">
+					<DataPath>Отчет.Тесты.Результат</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТестыРезультатКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ТестыРезультатРасширеннаяПодсказка" id="28"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<Button name="ВыполнитьТест" id="31">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ВыполнитьТест</CommandName>
+			<ExtendedTooltip name="ВыполнитьТестРасширеннаяПодсказка" id="32"/>
+		</Button>
+		<Button name="выполнитьвсетесты" id="33">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.выполнитьвсетесты</CommandName>
+			<ExtendedTooltip name="выполнитьвсетестыРасширеннаяПодсказка" id="34"/>
+		</Button>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Отчет" id="1">
+			<Type>
+				<v8:Type>cfg:ExternalReportObject.ЗапускательТестов</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ОтчетТестОбъект" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчет тест объект</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+		<Attribute name="Реквизит1" id="3">
+			<Type>
+				<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ВыполнитьТест" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить тест</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить тест</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыполнитьТест</Action>
+		</Command>
+		<Command name="ПолучитьТесты" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить тесты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить тесты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПолучитьТесты</Action>
+		</Command>
+		<Command name="выполнитьвсетесты" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнитьвсетесты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнитьвсетесты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>выполнитьвсетесты</Action>
+		</Command>
+	</Commands>
+</Form>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" 
+xmlns:app="http://v8.1c.ru/8.2/managed-application/core" 
+xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config"
+xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" 
+xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" 
+xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" 
+xmlns:style="http://v8.1c.ru/8.1/data/ui/style" 
+xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" 
+xmlns:v8="http://v8.1c.ru/8.1/data/core" 
+xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" 
+xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" 
+xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" 
+xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" 
+xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" 
+xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" 
+xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+
+<ExternalReport uuid="4e53f41f-8390-444b-aaad-e4b376303967">
+<InternalInfo>
+<xr:ContainedObject>
+<xr:ClassId>93e7e395-02e7-4283-b2fb-e2f1ee21989c</xr:ClassId>
+<xr:ObjectId>899f982a-b329-4e99-ac11-763ad300ec9f</xr:ObjectId>
+</xr:ContainedObject>
+<xr:GeneratedType name="ExternalReportObject.ПримерРазметкиОтчета" category="Object">
+<xr:TypeId>cd1e01e6-6871-4ca6-b9ee-3330d73d6687</xr:TypeId>
+<xr:ValueId>07eef88c-e169-4aa6-a724-8b522315a84d</xr:ValueId>
+</xr:GeneratedType>
+</InternalInfo>
+<Properties>
+<Name>ПримерРазметкиОтчета</Name>
+<Synonym>
+<v8:item>
+<v8:lang>ru</v8:lang>
+<v8:content>Пример разметки отчета</v8:content>
+</v8:item>
+</Synonym>
+<Comment>Простой наборосок.</Comment>
+</Properties>
+<ChildObjects>
+<Attribute uuid="e6a542fc-16d6-4e80-ab40-ce9377bb706f">
+<Properties>
+<Name>ФайлаТеста</Name>
+<Synonym>
+<v8:item>
+<v8:lang>ru</v8:lang>
+<v8:content>Файла теста</v8:content>
+</v8:item>
+</Synonym>
+<Comment>файл с тестами</Comment>
+<Type><v8:Type>xs:string</v8:Type>
+    <v8:StringQualifiers>
+        <v8:Length>0</v8:Length>
+        <v8:AllowedLength>Variable</v8:AllowedLength>
+    </v8:StringQualifiers>
+</Type>
+</Properties>
+</Attribute>
+<Attribute uuid="ac5099f2-1a56-412e-b918-a9a725912243">
+<Properties>
+<Name>Организация</Name>
+<Comment>пример описания ссылочного типа</Comment>
+<Type>
+<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+</Type>
+</Properties>
+</Attribute>
+<Attribute uuid="20f88d59-cca0-47d8-bc39-fe8b704b23a1">
+<Properties>
+<Name>Составной</Name>
+<Comment>Несколько типов</Comment>
+<Type>
+<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+<v8:Type>xs:dateTime</v8:Type>
+<v8:Type>cfg:EnumRef.ВидыДепозитов</v8:Type>
+<v8:Type>xs:string</v8:Type>
+    <v8:StringQualifiers>
+        <v8:Length>100</v8:Length>
+        <v8:AllowedLength>Variable</v8:AllowedLength>
+    </v8:StringQualifiers>
+<v8:Type>xs:decimal</v8:Type>
+    <v8:NumberQualifiers>
+        <v8:Digits>19</v8:Digits>
+        <v8:FractionDigits>5</v8:FractionDigits>
+    </v8:NumberQualifiers>
+</Type>
+</Properties>
+</Attribute>
+</ChildObjects>
+</ExternalReport>
+</MetaDataObject>

@@ -33,6 +33,9 @@ namespace ScriptEngine.HostedScript.Library
         /// <summary>
         /// Устанавливает кодировку в которой будут считываться стандартные потоки вывода и ошибок.
         /// </summary>
+        /// <remarks>
+        /// Дополнительное описание свойства
+        /// </remarks>
         [ContextProperty("КодировкаВывода", "OutputEncoding")]
         public IValue OutputEncoding
         {
@@ -63,6 +66,9 @@ namespace ScriptEngine.HostedScript.Library
             set { _item.AutoSize = value; }
         }
 
+        /// <code>
+        /// МояПеременная = 1;
+        /// </code>
         [ContextProperty("Имя", "Name")]
         public string Name
         {
@@ -89,6 +95,10 @@ namespace ScriptEngine.HostedScript.Library
         /// </summary>
         /// <param name="source">Имя файла-источника</param>
         /// <param name="destination">Имя файла приемника</param>
+        /// <example>
+        /// ПереместитьФайл(ПутьОткуда, ПутьКуда);
+        /// КлассИзКомпоненты = Новый КлассИзКомпоненты(); // тип объявлен внутри компоненты
+        /// </example>
         [ContextMethod("ПереместитьФайл", "MoveFile")]
         public void MoveFile(string source, string destination = "новыйпуть")
         {
@@ -116,7 +126,12 @@ namespace ScriptEngine.HostedScript.Library
         /// КлассИзКомпоненты = Новый КлассИзКомпоненты(); // тип объявлен внутри компоненты
         /// </example>
         /// </summary>
-        /// <param name="dllPath">Путь к внешней компоненте</param>
+        /// <param name="dllPath">Путь к внешней компоненте
+        /// <example>
+        /// ПримерКода = Истина;
+        /// ещеКод = Истина;
+        /// </example>
+        /// </param>
         [ContextMethod("ПодключитьВнешнююКомпоненту", "AttachAddIn")]
         public void AttachAddIn(string dllPath)
         {
@@ -124,10 +139,29 @@ namespace ScriptEngine.HostedScript.Library
             EngineInstance.AttachAssembly(assembly);
         }
 
+        public void ignoreMethod1(string str1, string str2, 
+            string str3) 
+        {
+
+        }
+
+        /// <summary>
+        /// Возвращает каталог временных файлов ОС
+        /// </summary>
+        public void ignorePublicMethod2(string data) {
+
+        }
+        
+
         /// <summary>
         /// Возвращает каталог временных файлов ОС
         /// </summary>
         /// <returns>Строка. Путь к каталогу временных файлов</returns>
+        /// <code>
+        /// codelin1();
+        /// codelin2();
+        /// codelin3();
+        /// </code>
         [ContextMethod("КаталогВременныхФайлов", "TempFilesDir")]
         public string TempFilesDir()
         {
