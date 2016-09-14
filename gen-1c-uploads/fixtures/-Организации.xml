@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject 
+	xmlns="http://v8.1c.ru/8.3/MDClasses" 
+	xmlns:app="http://v8.1c.ru/8.2/managed-application/core" 
+	xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" 
+	xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" 
+	xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" 
+	xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" 
+	xmlns:style="http://v8.1c.ru/8.1/data/ui/style" 
+	xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" 
+	xmlns:v8="http://v8.1c.ru/8.1/data/core" 
+	xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" 
+	xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" 
+	xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" 
+	xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" 
+	xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" 
+	xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Catalog uuid="df06fb3e-6365-467c-bfe9-83bf10eb1146">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Организации" category="Object">
+				<xr:TypeId>a37d250a-f857-4d38-b299-035b1038b669</xr:TypeId>
+				<xr:ValueId>d08cd351-c730-4118-94c3-f1e968602ce4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Организации" category="Ref">
+				<xr:TypeId>17f254fb-8978-48b8-8be9-627329a5eb3d</xr:TypeId>
+				<xr:ValueId>0c2a5d37-6886-460e-bb46-2613b57cffea</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Организации" category="Selection">
+				<xr:TypeId>21f8d4b7-6a88-4f42-bcdf-45e2f5a23b27</xr:TypeId>
+				<xr:ValueId>b48d8d68-25ab-4491-9c42-cdced192cdb8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Организации" category="List">
+				<xr:TypeId>12476f89-39e7-4b7c-9d74-9dc4364239f7</xr:TypeId>
+				<xr:ValueId>50a864c3-a411-4b4b-8ced-796492f26644</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Организации" category="Manager">
+				<xr:TypeId>30fb5272-4e45-42e2-b9c9-ee479ddf8ac3</xr:TypeId>
+				<xr:ValueId>cd655c42-05a1-4cd2-8419-78de783e8214</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Организации</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организации</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<Hierarchical>false</Hierarchical>
+			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
+			<LimitLevelCount>false</LimitLevelCount>
+			<LevelCount>2</LevelCount>
+			<FoldersOnTop>true</FoldersOnTop>
+			<UseStandardCommands>true</UseStandardCommands>
+			<Owners/>
+			<SubordinationUse>ToItems</SubordinationUse>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>25</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+			<CodeSeries>WholeCatalog</CodeSeries>
+			<CheckUnique>true</CheckUnique>
+			<Autonumbering>true</Autonumbering>
+			<DefaultPresentation>AsDescription</DefaultPresentation>
+			<Characteristics/>
+			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
+			<EditType>InDialog</EditType>
+			<QuickChoice>false</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<InputByString>
+				<xr:Field>Catalog.Организации.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.Организации.StandardAttribute.Code</xr:Field>
+			</InputByString>
+			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
+			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
+			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
+			<DefaultObjectForm/>
+			<DefaultFolderForm/>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<DefaultFolderChoiceForm/>
+			<AuxiliaryObjectForm/>
+			<AuxiliaryFolderForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<AuxiliaryFolderChoiceForm/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<BasedOn/>
+			<DataLockFields/>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<FullTextSearch>Use</FullTextSearch>
+			<ObjectPresentation/>
+			<ExtendedObjectPresentation/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<CreateOnInput>Use</CreateOnInput>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

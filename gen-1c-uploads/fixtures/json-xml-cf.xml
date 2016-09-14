@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject 
+	xmlns="http://v8.1c.ru/8.3/MDClasses" 
+	xmlns:app="http://v8.1c.ru/8.2/managed-application/core" 
+	xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" 
+	xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" 
+	xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" 
+	xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" 
+	xmlns:style="http://v8.1c.ru/8.1/data/ui/style" 
+	xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" 
+	xmlns:v8="http://v8.1c.ru/8.1/data/core" 
+	xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" 
+	xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" 
+	xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" 
+	xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" 
+	xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" 
+	xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<ExternalReport uuid="4359f1db-a4f8-48c2-a3c3-33803dadcdd7">
+		<InternalInfo>
+			<xr:GeneratedType name="ExternalReportObject.ПримерРазметкиОтчета" category="Object">
+				<xr:TypeId>183d19f1-5e8f-472b-84c6-10d0cbbd9b8e</xr:TypeId>
+				<xr:ValueId>3b6770ba-40bc-4c37-9b72-bcc76b63cb68</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПримерРазметкиОтчета</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пример разметки отчета</v8:content>
+				</v8:item>
+			</Synonym>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="047c06b7-0658-487b-9767-018873d7b078">
+				<Properties>
+					<Name>ФайлаТеста</Name>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4fe5249b-cd86-4d3b-8601-093dcdcf9902">
+				<Properties>
+					<Name>Организация</Name>
+					<Comment>пример описания ссылочного типа</Comment>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПростойСправочник2</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ccbbb14e-0672-44d0-b787-0333b4f802d4">
+				<Properties>
+					<Name>Составной</Name>
+					<Comment>Несколько типов</Comment>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПростойСправочник</v8:Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:Type>cfg:EnumRef.Перечисление1</v8:Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>19</v8:Digits>
+							<v8:FractionDigits>5</v8:FractionDigits>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e73ef127-6122-430c-a027-bbbe9f2c7f79">
+				<Properties>
+					<Name>Реквизиты</Name>
+					<Comment>Несколько типов</Comment>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+					</Type>
+					<FillChecking>ShowError</FillChecking>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="eb4b5d4f-67c4-4027-910a-fd041d5d75d3">
+				<InternalInfo>
+					<xr:GeneratedType name="ReportTabularSection.ПримерРазметкиОтчета.Тесты" category="TabularSection">
+						<xr:TypeId>20ad0407-d83a-4a99-9046-bad0bf2afbdd</xr:TypeId>
+						<xr:ValueId>2acf1b66-9fab-407c-94ea-175bc1b7a5cf</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="ReportTabularSectionRow.ПримерРазметкиОтчета.Тесты" category="TabularSectionRow">
+						<xr:TypeId>0117a026-ddd3-42aa-a5fa-01ae7eca039f</xr:TypeId>
+						<xr:ValueId>e11bcadd-5cbb-48cf-ac6e-cf2ca385b92c</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Тесты</Name>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="e5e4aa13-9e51-41ef-bd7d-487eb2f40a48">
+						<Properties>
+							<Name>Выполнять</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Выполнять тест</v8:content>
+								</v8:item>
+							</Synonym>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="9ff44182-eed8-4e7c-bf00-56b4d8ff07fb">
+						<Properties>
+							<Name>ИмяТеста</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Имя теста</v8:content>
+								</v8:item>
+							</Synonym>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>100</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="86548498-bb3f-48e4-9e86-d3320cca99fc">
+						<Properties>
+							<Name>Результат</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Результат выполнения теста</v8:content>
+								</v8:item>
+							</Synonym>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>100</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="9accf23c-b591-4c2a-b591-e1e4c46516c6">
+				<InternalInfo>
+					<xr:GeneratedType name="ReportTabularSection.ПримерРазметкиОтчета.РезультатыРабот" category="TabularSection">
+						<xr:TypeId>1f390aa4-9fc9-4e5e-8dc9-354264a8f4b1</xr:TypeId>
+						<xr:ValueId>dabdeace-d09f-4c3e-b91b-9527d1d0e3fd</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="ReportTabularSectionRow.ПримерРазметкиОтчета.РезультатыРабот" category="TabularSectionRow">
+						<xr:TypeId>89a3cc9f-c1aa-44b6-936e-716b80877aa0</xr:TypeId>
+						<xr:ValueId>f70b195f-37c5-4d83-a832-9e1453a9d627</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>РезультатыРабот</Name>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="9732185a-ab71-45c9-a45b-16a8f63c4fb1">
+						<Properties>
+							<Name>Работа</Name>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="e606f5ff-df52-45b4-bea6-a74090ed8372">
+						<Properties>
+							<Name>Результат</Name>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</ExternalReport>
+</MetaDataObject>

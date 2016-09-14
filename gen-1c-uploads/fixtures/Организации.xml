@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" 
+ xmlns:app="http://v8.1c.ru/8.2/managed-application/core" 
+ xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config"
+ xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" 
+ xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" 
+ xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" 
+ xmlns:style="http://v8.1c.ru/8.1/data/ui/style" 
+ xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" 
+ xmlns:v8="http://v8.1c.ru/8.1/data/core" 
+ xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" 
+ xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" 
+ xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" 
+ xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" 
+ xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" 
+ xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" 
+ xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+
+<Catalog uuid="0a7b6aa9-3506-4214-ac3d-fcb6bc9ded6e">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Организации" category="Object">
+				<xr:TypeId>667a8f09-74ea-4ece-bc38-0a37ae0e96b0</xr:TypeId>
+				<xr:ValueId>d97929de-fa28-4127-8968-053e61c846f7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Организации" category="Ref">
+				<xr:TypeId>05465e92-2f83-43be-8582-2e67ec8d638d</xr:TypeId>
+				<xr:ValueId>53ae436d-e651-4ad7-83d0-5d76cee540e5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Организации" category="Selection">
+				<xr:TypeId>70c8460d-07de-400d-a29c-345551667cf8</xr:TypeId>
+				<xr:ValueId>77ce2a35-f7b5-44c8-90b7-d1a621d8f4ae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Организации" category="List">
+				<xr:TypeId>8f02fef1-4d63-4e85-82fa-101a716db90c</xr:TypeId>
+				<xr:ValueId>37f4f0ad-b7ac-4403-bc00-472878fffb6e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Организации" category="Manager">
+				<xr:TypeId>c9ddb2e4-2dcc-4f2d-8c2b-c2d515efbdd6</xr:TypeId>
+				<xr:ValueId>a8b0df02-fe2d-4c55-8b99-01725b5b3eb4</xr:ValueId>
+			</xr:GeneratedType>
+
+		</InternalInfo>
+<Properties>
+		<Name>Организации</Name>
+</Properties><ChildObjects>
+<Attribute uuid="cbcdf1b2-4326-4bb3-93cd-370193c6c02d">
+	<Properties>
+		<Name>ИНН</Name>
+
+		<Type><v8:Type>xs:string</v8:Type>
+
+						<v8:StringQualifiers>
+							<v8:Length>20</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+</Type>
+
+	</Properties>
+</Attribute>
+<Attribute uuid="11e7b2dd-970e-4aa0-91c0-b98576cdc356">
+	<Properties>
+		<Name>Руководитель</Name>
+
+		<Type>
+<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+</Type>
+
+	</Properties>
+</Attribute>
+<TabularSection uuid="16d87597-e924-41c8-b2ce-081b95c066ee">
+				<InternalInfo>
+					<xr:GeneratedType name="ReportTabularSection.Организации.КонтактнаяИнформация" category="TabularSection">
+						<xr:TypeId>83eabd45-17f0-4668-b6a8-6429c45bb88e</xr:TypeId>
+						<xr:ValueId>3c55a43e-44f6-4c8f-9ef5-354afc1edd22</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="ReportTabularSectionRow.Организации.КонтактнаяИнформация" category="TabularSectionRow">
+						<xr:TypeId>c42137f1-8bb5-4b02-9fa4-f972d70a746d</xr:TypeId>
+						<xr:ValueId>c8edd580-a9ab-417c-8f43-343f6d016a0f</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+	<Properties>
+	
+
+		<Name>КонтактнаяИнформация</Name>
+
+</Properties>
+		<ChildObjects>
+
+<Attribute uuid="b2bdb4e4-0fbb-44ef-b1a5-506813f42b8f">
+<Properties>
+
+		<Name>ВидИнформации</Name>
+
+		<Type><v8:Type>xs:string</v8:Type>
+
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+</Type>
+
+</Properties>
+</Attribute>
+
+<Attribute uuid="efa03579-d641-4db9-8d8a-be69032668ab">
+<Properties>
+
+		<Name>Значение</Name>
+
+		<Type><v8:Type>xs:string</v8:Type>
+
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+</Type>
+
+</Properties>
+</Attribute>
+
+		</ChildObjects>
+</TabularSection></ChildObjects>
+</Catalog>
+</MetaDataObject>

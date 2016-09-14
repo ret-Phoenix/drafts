@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" 
+ xmlns:app="http://v8.1c.ru/8.2/managed-application/core" 
+ xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config"
+ xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" 
+ xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" 
+ xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" 
+ xmlns:style="http://v8.1c.ru/8.1/data/ui/style" 
+ xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" 
+ xmlns:v8="http://v8.1c.ru/8.1/data/core" 
+ xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" 
+ xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" 
+ xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" 
+ xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" 
+ xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" 
+ xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" 
+ xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+
+<Document uuid="41a6ce97-3d7d-48c0-ada1-c76df0de8741">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.Документ1" category="Object">
+				<xr:TypeId>8ca74299-8acb-45d0-a49f-fb524d95364e</xr:TypeId>
+				<xr:ValueId>38947fc2-eb30-46dc-8cd5-3cb91670bd3f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.Документ1" category="Ref">
+				<xr:TypeId>6e057cb3-5aba-4b24-bd00-1cc98ccdabd0</xr:TypeId>
+				<xr:ValueId>5eed0810-1ed3-40c6-8db8-44323130c67c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.Документ1" category="Selection">
+				<xr:TypeId>720666ee-4182-4a8f-ac40-9495fcb3373a</xr:TypeId>
+				<xr:ValueId>7de61d53-beda-4ef7-b733-1688beec7fd1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.Документ1" category="List">
+				<xr:TypeId>be5b805b-6218-4d7c-a4e2-70d0c6c0f1b0</xr:TypeId>
+				<xr:ValueId>6bffff0f-713f-49b4-b26f-60d37c7fa13e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.Документ1" category="Manager">
+				<xr:TypeId>ebbd25e8-7232-43b7-a31c-09030a8cf414</xr:TypeId>
+				<xr:ValueId>4c63340e-6808-4b6c-a7a8-2841631d3123</xr:ValueId>
+			</xr:GeneratedType>
+
+		</InternalInfo>
+<Properties>
+		<Name>Документ1</Name>
+</Properties><ChildObjects>
+<Attribute uuid="38b13b33-b482-45b7-a0cb-2b6d1f3cc1d1">
+	<Properties>
+		<Name>Автор</Name>
+
+		<Type>
+<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+</Type>
+
+	</Properties>
+</Attribute>
+<Attribute uuid="48f05017-3de9-4e6b-917c-51e39cd9a51f">
+	<Properties>
+		<Name>Организация</Name>
+
+		<Type>
+<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+</Type>
+
+	</Properties>
+</Attribute>
+<TabularSection uuid="d02fc5d3-0e37-4ffd-8f74-0b4309b9d2d4">
+				<InternalInfo>
+					<xr:GeneratedType name="ReportTabularSection.Документ1.Товары" category="TabularSection">
+						<xr:TypeId>1d430894-7e66-404c-b472-e38b2ee87c57</xr:TypeId>
+						<xr:ValueId>c0d1d4a0-8045-4198-92b9-7264e073768f</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="ReportTabularSectionRow.Документ1.Товары" category="TabularSectionRow">
+						<xr:TypeId>4666d871-d121-4ab1-8a3f-77eb7433ec7a</xr:TypeId>
+						<xr:ValueId>44d19157-19aa-434f-8766-81d1e75844fd</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+	<Properties>
+	
+
+		<Name>Товары</Name>
+
+</Properties>
+		<ChildObjects>
+
+<Attribute uuid="1daed242-3c33-4f62-a4c8-8ec71c55d6b2">
+<Properties>
+
+		<Name>Номенклатура</Name>
+
+		<Type><v8:Type>xs:string</v8:Type>
+
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+</Type>
+
+</Properties>
+</Attribute>
+
+<Attribute uuid="e0f6d650-f1b6-4711-b298-e0c717f67af0">
+<Properties>
+
+		<Name>Количество</Name>
+
+		<Type><v8:Type>xs:decimal</v8:Type>
+
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+						</v8:NumberQualifiers>
+</Type>
+
+</Properties>
+</Attribute>
+
+		</ChildObjects>
+</TabularSection></ChildObjects>
+</Document>
+</MetaDataObject>
