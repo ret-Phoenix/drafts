@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" 
+ xmlns:app="http://v8.1c.ru/8.2/managed-application/core" 
+ xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config"
+ xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" 
+ xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" 
+ xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" 
+ xmlns:style="http://v8.1c.ru/8.1/data/ui/style" 
+ xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" 
+ xmlns:v8="http://v8.1c.ru/8.1/data/core" 
+ xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" 
+ xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" 
+ xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" 
+ xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" 
+ xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" 
+ xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" 
+ xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+
+<InformationRegister uuid="21513a0a-536f-44b2-8b16-35a2a1a8221f">
+		<InternalInfo>
+
+			<xr:GeneratedType name="InformationRegisterRecord.РегистрСведений1" category="Record">
+				<xr:TypeId>28259fbc-062a-493b-a3dd-a06f005a0b85</xr:TypeId>
+				<xr:ValueId>8e01a48e-e08c-4a5f-a469-12edb899cedf</xr:ValueId>
+			</xr:GeneratedType>
+
+
+			<xr:GeneratedType name="InformationRegisterManager.РегистрСведений1" category="Manager">
+				<xr:TypeId>43a6c71f-5dfd-4fe4-8bcf-12142a27497f</xr:TypeId>
+				<xr:ValueId>008c80a3-5e28-440c-93a2-246855152b3d</xr:ValueId>
+			</xr:GeneratedType>
+
+
+			<xr:GeneratedType name="InformationRegisterSelection.РегистрСведений1" category="Selection">
+				<xr:TypeId>6cb77941-58ad-4942-8127-32d147f9e207</xr:TypeId>
+				<xr:ValueId>28b57ca1-f407-457a-95ff-14811c4ece79</xr:ValueId>
+			</xr:GeneratedType>
+
+
+			<xr:GeneratedType name="InformationRegisterList.РегистрСведений1" category="List">
+				<xr:TypeId>7a4303c6-ed7e-47de-8de2-35633d20750a</xr:TypeId>
+				<xr:ValueId>627241aa-462b-473e-82df-0738f336a24b</xr:ValueId>
+			</xr:GeneratedType>
+
+
+			<xr:GeneratedType name="InformationRegisterRecordSet.РегистрСведений1" category="RecordSet">
+				<xr:TypeId>7b4be38c-f002-4687-bb3b-77d9b4602dcd</xr:TypeId>
+				<xr:ValueId>d12795b9-49af-4fc0-88ba-12e8f0fcfd0b</xr:ValueId>
+			</xr:GeneratedType>
+
+
+			<xr:GeneratedType name="InformationRegisterRecordKey.РегистрСведений1" category="RecordKey">
+				<xr:TypeId>f0b41504-d7a0-46dc-8e15-66f324c3c856</xr:TypeId>
+				<xr:ValueId>307bbc82-439c-4182-b1c9-d6b4713f45a4</xr:ValueId>
+			</xr:GeneratedType>
+
+
+			<xr:GeneratedType name="InformationRegisterRecordManager.РегистрСведений1" category="RecordManager">
+				<xr:TypeId>de818e8e-7842-4bf3-b621-42935164cf9f</xr:TypeId>
+				<xr:ValueId>ec9a3c9a-4ac9-4198-8b00-a0bbd1520c91</xr:ValueId>
+			</xr:GeneratedType>
+
+		</InternalInfo>
+<Properties>
+		<Name>РегистрСведений1</Name>
+</Properties><ChildObjects>
+<Dimension uuid="08bc9ead-ec82-4edb-84e6-5afefddc28c4">
+	<Properties>
+		<Name>Организация</Name>
+
+		<Type>
+<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+</Type>
+
+	</Properties>
+</Dimension>
+<Resource uuid="1aec215b-7427-4dec-8666-0ba0cc347fa6">
+	<Properties>
+		<Name>Курс</Name>
+
+		<Type><v8:Type>xs:decimal</v8:Type>
+
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>4</v8:FractionDigits>
+						</v8:NumberQualifiers>
+</Type>
+
+	</Properties>
+</Resource>
+<Resource uuid="92a08e2f-8493-46f1-97fc-808c695db4b4">
+	<Properties>
+		<Name>Кратность</Name>
+
+		<Type><v8:Type>xs:decimal</v8:Type>
+
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+						</v8:NumberQualifiers>
+</Type>
+
+	</Properties>
+</Resource>
+<Attribute uuid="6f941bcb-d4dd-41ea-ac89-ce26ffc4393a">
+	<Properties>
+		<Name>Комментарий</Name>
+
+		<Type><v8:Type>xs:string</v8:Type>
+</Type>
+
+	</Properties>
+</Attribute></ChildObjects>
+</InformationRegister>
+</MetaDataObject>

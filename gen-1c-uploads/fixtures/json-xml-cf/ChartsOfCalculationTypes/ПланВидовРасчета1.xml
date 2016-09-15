@@ -1,72 +1,87 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
-	<Catalog uuid="43ac9e61-fd73-46f4-8414-07822c41fb26">
+	<ChartOfCalculationTypes uuid="eafd5d61-d956-4704-9182-26311ccabfe5">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.Организации" category="Object">
-				<xr:TypeId>7c6e048d-4182-4a19-ab50-a256d915188d</xr:TypeId>
-				<xr:ValueId>b39f392f-6f0f-4d0e-80c9-17eec58a8a3c</xr:ValueId>
+			<xr:GeneratedType name="ChartOfCalculationTypesObject.ПланВидовРасчета1" category="Object">
+				<xr:TypeId>47df27ea-2364-404a-88b0-efa1b950d654</xr:TypeId>
+				<xr:ValueId>4c2d0972-7b0e-44f6-8569-7e1602eae86a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.Организации" category="Ref">
-				<xr:TypeId>8e385a9c-6e67-4392-8b50-cc85a86111ea</xr:TypeId>
-				<xr:ValueId>8566a565-e9fc-4205-bc45-335df40f7d23</xr:ValueId>
+			<xr:GeneratedType name="ChartOfCalculationTypesRef.ПланВидовРасчета1" category="Ref">
+				<xr:TypeId>afbbba0a-0650-4897-8b28-311f8189ea02</xr:TypeId>
+				<xr:ValueId>8924af82-c66e-4980-a2ea-6875f5702051</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.Организации" category="Selection">
-				<xr:TypeId>14fc964c-0b63-427e-99f0-0f0e09c89cff</xr:TypeId>
-				<xr:ValueId>3e72f033-1604-4979-8a11-255ade3260fb</xr:ValueId>
+			<xr:GeneratedType name="ChartOfCalculationTypesSelection.ПланВидовРасчета1" category="Selection">
+				<xr:TypeId>772d8c45-9e9f-45a7-909b-979db41cc288</xr:TypeId>
+				<xr:ValueId>4fa4dc76-dd33-4d08-90ab-5bf3e7027276</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.Организации" category="List">
-				<xr:TypeId>f697a71e-5926-4699-ad33-5cd4c7ff5248</xr:TypeId>
-				<xr:ValueId>ea0c7f1c-e904-4e56-8032-682677e29f45</xr:ValueId>
+			<xr:GeneratedType name="ChartOfCalculationTypesList.ПланВидовРасчета1" category="List">
+				<xr:TypeId>3a100901-d0b9-4ad7-8765-3fad2a8a8a19</xr:TypeId>
+				<xr:ValueId>387318bd-2322-4115-a903-6ddabdedba8f</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.Организации" category="Manager">
-				<xr:TypeId>00304c8e-c197-4032-883a-c438e0f873d2</xr:TypeId>
-				<xr:ValueId>76f8914d-0d4e-4d12-8398-0be351c566a7</xr:ValueId>
+			<xr:GeneratedType name="ChartOfCalculationTypesManager.ПланВидовРасчета1" category="Manager">
+				<xr:TypeId>9cebdcec-0ab8-45c9-9307-2db7b939bee4</xr:TypeId>
+				<xr:ValueId>350fe78d-3544-413b-8db9-069447909b9a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DisplacingCalculationTypes.ПланВидовРасчета1" category="DisplacingCalculationTypes">
+				<xr:TypeId>5998b72c-8112-408f-8031-5b4e6fd85530</xr:TypeId>
+				<xr:ValueId>0f92dd9d-3c26-411d-954c-bf638aab63b9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DisplacingCalculationTypesRow.ПланВидовРасчета1" category="DisplacingCalculationTypesRow">
+				<xr:TypeId>66379bc5-429f-438d-81c9-59cba76d541b</xr:TypeId>
+				<xr:ValueId>b3600149-9364-4482-898d-d9bbd355b9b2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BaseCalculationTypes.ПланВидовРасчета1" category="BaseCalculationTypes">
+				<xr:TypeId>c82496e3-8019-4d66-8cb0-b21e1cbdc8e2</xr:TypeId>
+				<xr:ValueId>323e8429-7132-4b2b-8804-5a86da869f27</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BaseCalculationTypesRow.ПланВидовРасчета1" category="BaseCalculationTypesRow">
+				<xr:TypeId>f93e7d5b-4b3d-4d5c-9c3c-3df0dbad447d</xr:TypeId>
+				<xr:ValueId>5c1e6c4c-04ac-4e97-a275-f5783df18073</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="LeadingCalculationTypes.ПланВидовРасчета1" category="LeadingCalculationTypes">
+				<xr:TypeId>e212e707-09a3-4f29-91ad-61514175f939</xr:TypeId>
+				<xr:ValueId>4f141f0d-4abd-4871-b524-426492478b26</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="LeadingCalculationTypesRow.ПланВидовРасчета1" category="LeadingCalculationTypesRow">
+				<xr:TypeId>58ed49e1-8ffa-4f4e-9e1c-3ede55fb9caa</xr:TypeId>
+				<xr:ValueId>a1b1a299-a051-4421-9e93-0aa1c96b5b9a</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Организации</Name>
+			<Name>ПланВидовРасчета1</Name>
 			<Synonym/>
 			<Comment/>
-			<Hierarchical>false</Hierarchical>
-			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
-			<LimitLevelCount>false</LimitLevelCount>
-			<LevelCount>2</LevelCount>
-			<FoldersOnTop>true</FoldersOnTop>
 			<UseStandardCommands>true</UseStandardCommands>
-			<Owners/>
-			<SubordinationUse>ToItems</SubordinationUse>
 			<CodeLength>9</CodeLength>
-			<DescriptionLength>25</DescriptionLength>
+			<DescriptionLength>40</DescriptionLength>
 			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
-			<CodeSeries>WholeCatalog</CodeSeries>
-			<CheckUnique>true</CheckUnique>
-			<Autonumbering>true</Autonumbering>
 			<DefaultPresentation>AsDescription</DefaultPresentation>
-			<Characteristics/>
-			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
 			<EditType>InDialog</EditType>
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.Организации.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.Организации.StandardAttribute.Code</xr:Field>
+				<xr:Field>ChartOfCalculationTypes.ПланВидовРасчета1.StandardAttribute.Description</xr:Field>
+				<xr:Field>ChartOfCalculationTypes.ПланВидовРасчета1.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
+			<CreateOnInput>DontUse</CreateOnInput>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 			<DefaultObjectForm/>
-			<DefaultFolderForm/>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
-			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
-			<AuxiliaryFolderForm/>
 			<AuxiliaryListForm/>
 			<AuxiliaryChoiceForm/>
-			<AuxiliaryFolderChoiceForm/>
-			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<BasedOn/>
+			<DependenceOnCalculationTypes>DontUse</DependenceOnCalculationTypes>
+			<BaseCalculationTypes/>
+			<ActionPeriodUse>false</ActionPeriodUse>
+			<Characteristics/>
+			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<DataLockFields/>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<FullTextSearch>Use</FullTextSearch>
@@ -75,21 +90,15 @@
 			<ListPresentation/>
 			<ExtendedListPresentation/>
 			<Explanation/>
-			<CreateOnInput>Use</CreateOnInput>
-			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="69a8abad-9046-4a30-b00b-0e289660beb4">
+			<Attribute uuid="ab586f97-7b83-4f96-9a52-0775181835cc">
 				<Properties>
-					<Name>ИНН</Name>
+					<Name>Организация</Name>
 					<Synonym/>
 					<Comment/>
 					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>20</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -102,7 +111,7 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
+					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -112,12 +121,11 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="dcac636f-1287-4441-a4e3-d8b3053e946b">
+			<Attribute uuid="d9dea49b-5e18-45ba-adc8-8442dbbae65b">
 				<Properties>
 					<Name>Руководитель</Name>
 					<Synonym/>
@@ -146,32 +154,30 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<TabularSection uuid="7b886b5e-c3d1-4e7d-ac03-a2a0e57ece27">
+			<TabularSection uuid="33804956-a511-4421-abd2-5a7a64c7bfbb">
 				<InternalInfo>
-					<xr:GeneratedType name="CatalogTabularSection.Организации.КонтактнаяИнформация" category="TabularSection">
-						<xr:TypeId>5a6b2d79-99c1-4eb9-8abb-13b670def9ba</xr:TypeId>
-						<xr:ValueId>9b6a424c-4e70-49b2-8ad2-2bebed178afb</xr:ValueId>
+					<xr:GeneratedType name="ChartOfCalculationTypesTabularSection.ПланВидовРасчета1.ЧтоТоТам" category="TabularSection">
+						<xr:TypeId>b794f04a-b8ab-4b04-8234-a5b541500034</xr:TypeId>
+						<xr:ValueId>c1589819-b2e4-40b4-9729-b90c3d27bab3</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="CatalogTabularSectionRow.Организации.КонтактнаяИнформация" category="TabularSectionRow">
-						<xr:TypeId>cf46dc37-2cd2-4657-9539-b863d2a75fb3</xr:TypeId>
-						<xr:ValueId>fa7e4efc-f012-47d8-8f22-3a37f7d446ef</xr:ValueId>
+					<xr:GeneratedType name="ChartOfCalculationTypesTabularSectionRow.ПланВидовРасчета1.ЧтоТоТам" category="TabularSectionRow">
+						<xr:TypeId>84c6dd15-d63e-4131-99e6-1e43696aa1ac</xr:TypeId>
+						<xr:ValueId>cfa3e991-0050-4c79-970e-70fe0656757c</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<Name>КонтактнаяИнформация</Name>
+					<Name>ЧтоТоТам</Name>
 					<Synonym/>
 					<Comment/>
 					<ToolTip/>
 					<FillChecking>DontCheck</FillChecking>
-					<Use>ForItem</Use>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="35733e55-5c9a-4e10-96b7-a347e2678385">
+					<Attribute uuid="037f0784-bb16-4652-a8e7-85d073c4ee40">
 						<Properties>
 							<Name>ВидИнформации</Name>
 							<Synonym/>
@@ -179,7 +185,7 @@
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
-									<v8:Length>100</v8:Length>
+									<v8:Length>50</v8:Length>
 									<v8:AllowedLength>Variable</v8:AllowedLength>
 								</v8:StringQualifiers>
 							</Type>
@@ -206,7 +212,7 @@
 							<FullTextSearch>Use</FullTextSearch>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="85b48324-9be3-4d8f-a50b-c8dde2fa6f49">
+					<Attribute uuid="3eb10a8e-f593-498b-8549-eabd937cedf0">
 						<Properties>
 							<Name>Значение</Name>
 							<Synonym/>
@@ -214,7 +220,7 @@
 							<Type>
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
-									<v8:Length>100</v8:Length>
+									<v8:Length>150</v8:Length>
 									<v8:AllowedLength>Variable</v8:AllowedLength>
 								</v8:StringQualifiers>
 							</Type>
@@ -244,5 +250,5 @@
 				</ChildObjects>
 			</TabularSection>
 		</ChildObjects>
-	</Catalog>
+	</ChartOfCalculationTypes>
 </MetaDataObject>

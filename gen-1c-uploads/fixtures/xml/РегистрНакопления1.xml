@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" 
+ xmlns:app="http://v8.1c.ru/8.2/managed-application/core" 
+ xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config"
+ xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" 
+ xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" 
+ xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" 
+ xmlns:style="http://v8.1c.ru/8.1/data/ui/style" 
+ xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" 
+ xmlns:v8="http://v8.1c.ru/8.1/data/core" 
+ xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" 
+ xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" 
+ xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" 
+ xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" 
+ xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" 
+ xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" 
+ xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+
+<AccumulationRegister uuid="470c22c5-8e18-4bd9-94ae-ba2877dd1456">
+		<InternalInfo>
+
+			<xr:GeneratedType name="AccumulationRegisterRecord.РегистрНакопления1" category="Record">
+				<xr:TypeId>22343aca-1d15-4ede-a94d-2edb2f5c341f</xr:TypeId>
+				<xr:ValueId>7d95aa79-f811-447e-80b5-81c49147c3f1</xr:ValueId>
+			</xr:GeneratedType>
+
+
+			<xr:GeneratedType name="AccumulationRegisterManager.РегистрНакопления1" category="Manager">
+				<xr:TypeId>ec9c8af5-bbba-45d3-8516-4327fb4f77df</xr:TypeId>
+				<xr:ValueId>99d81068-3330-40c5-8ddb-7ab0e6732e56</xr:ValueId>
+			</xr:GeneratedType>
+
+
+			<xr:GeneratedType name="AccumulationRegisterSelection.РегистрНакопления1" category="Selection">
+				<xr:TypeId>ec6841e5-6e10-4edb-bf9d-e46123b12c7f</xr:TypeId>
+				<xr:ValueId>d54b7f99-1e55-4dff-abea-27697404706b</xr:ValueId>
+			</xr:GeneratedType>
+
+
+			<xr:GeneratedType name="AccumulationRegisterList.РегистрНакопления1" category="List">
+				<xr:TypeId>8a4bbe03-56d0-4175-99d6-9f81466631d5</xr:TypeId>
+				<xr:ValueId>d2521bba-5c3a-4fb9-b8b8-7b989a119cb0</xr:ValueId>
+			</xr:GeneratedType>
+
+
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.РегистрНакопления1" category="RecordSet">
+				<xr:TypeId>5e4b2722-37a3-4a17-8cfa-ef8957e001d2</xr:TypeId>
+				<xr:ValueId>f3e4064a-674e-4183-b642-56f59eeb3afa</xr:ValueId>
+			</xr:GeneratedType>
+
+
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.РегистрНакопления1" category="RecordKey">
+				<xr:TypeId>61bdcde5-9c45-4a7b-84e0-35adf1159d32</xr:TypeId>
+				<xr:ValueId>4b173240-cde4-4e28-bb8f-e39adcab3673</xr:ValueId>
+			</xr:GeneratedType>
+
+		</InternalInfo>
+<Properties>
+		<Name>РегистрНакопления1</Name>
+</Properties><ChildObjects>
+<Dimension uuid="ba487284-6ab4-4a80-9f90-06900fecc832">
+	<Properties>
+		<Name>Организация</Name>
+
+		<Type>
+<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+</Type>
+
+	</Properties>
+</Dimension>
+<Resource uuid="dff15c35-5d4d-456e-9193-4a796f24745a">
+	<Properties>
+		<Name>Сумма</Name>
+
+		<Type><v8:Type>xs:decimal</v8:Type>
+
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+						</v8:NumberQualifiers>
+</Type>
+
+	</Properties>
+</Resource>
+<Attribute uuid="064102d7-2f3a-47e0-b464-305a1e466f89">
+	<Properties>
+		<Name>Комментарий</Name>
+
+		<Type><v8:Type>xs:string</v8:Type>
+</Type>
+
+	</Properties>
+</Attribute></ChildObjects>
+</AccumulationRegister>
+</MetaDataObject>

@@ -113,10 +113,30 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<SessionParameter>ПараметрСеанса1</SessionParameter>
+			<Role>Роль1</Role>
+			<Role>Роль2</Role>
+			<CommonModule>ОбщийМодуль1</CommonModule>
+			<CommonAttribute>ОбщийРеквизит1</CommonAttribute>
+			<DefinedType>ОпределяемыйТип1</DefinedType>
+			<Constant>Константа1</Constant>
+			<Constant>Константа2</Constant>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Организации</Catalog>
 			<Document>Документ1</Document>
 			<Enum>Перечисление1</Enum>
+			<Report>Отчет1</Report>
+			<DataProcessor>Обработка1</DataProcessor>
+			<InformationRegister>РегистрСведений1</InformationRegister>
+			<AccumulationRegister>РегистрНакопления1</AccumulationRegister>
+			<ChartOfCharacteristicTypes>ПланВидовХарактеристик1</ChartOfCharacteristicTypes>
+			<ChartOfAccounts>ПланСчетов</ChartOfAccounts>
+			<AccountingRegister>РегистрБухгалтерии1</AccountingRegister>
+			<ChartOfCalculationTypes>ПланВидовРасчета1</ChartOfCalculationTypes>
+			<CalculationRegister>РегистрРасчета1</CalculationRegister>
+			<BusinessProcess>БизнесПроцесс1</BusinessProcess>
+			<Task>Задача2</Task>
+			<Task>Задача1</Task>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject 
+	xmlns="http://v8.1c.ru/8.3/MDClasses" 
+	xmlns:app="http://v8.1c.ru/8.2/managed-application/core" 
+	xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" 
+	xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" 
+	xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" 
+	xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" 
+	xmlns:style="http://v8.1c.ru/8.1/data/ui/style" 
+	xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" 
+	xmlns:v8="http://v8.1c.ru/8.1/data/core" 
+	xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" 
+	xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" 
+	xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" 
+	xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" 
+	xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" 
+	xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Constant uuid="f0543389-8e8b-4293-8329-2c881f5a9c4a">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.Константа1" category="Manager">
+				<xr:TypeId>168169ca-f563-4ef6-9542-4d677d0f7c0e</xr:TypeId>
+				<xr:ValueId>b24f3090-7f21-4d83-9557-0773b9330c61</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.Константа1" category="ValueManager">
+				<xr:TypeId>0936f864-6e4a-4631-baab-2cd2b4d2562d</xr:TypeId>
+				<xr:ValueId>9128b2be-51d1-40bf-b632-e073bd798bb5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Константа1</Name>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

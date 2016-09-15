@@ -1,125 +1,76 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
-	<Catalog uuid="43ac9e61-fd73-46f4-8414-07822c41fb26">
+	<BusinessProcess uuid="4a42455d-0a0a-418e-848a-8bb03b88b072">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.Организации" category="Object">
-				<xr:TypeId>7c6e048d-4182-4a19-ab50-a256d915188d</xr:TypeId>
-				<xr:ValueId>b39f392f-6f0f-4d0e-80c9-17eec58a8a3c</xr:ValueId>
+			<xr:GeneratedType name="BusinessProcessObject.БизнесПроцесс1" category="Object">
+				<xr:TypeId>4030ce0c-b87e-4916-8081-4aceb99483f8</xr:TypeId>
+				<xr:ValueId>b96f5c43-83ee-4d91-834b-15a1b1b6f564</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.Организации" category="Ref">
-				<xr:TypeId>8e385a9c-6e67-4392-8b50-cc85a86111ea</xr:TypeId>
-				<xr:ValueId>8566a565-e9fc-4205-bc45-335df40f7d23</xr:ValueId>
+			<xr:GeneratedType name="BusinessProcessRef.БизнесПроцесс1" category="Ref">
+				<xr:TypeId>6911604d-04ed-4a10-b5ca-467887d05c13</xr:TypeId>
+				<xr:ValueId>32547d75-b9c1-4e8a-bd82-2edf138d52ec</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.Организации" category="Selection">
-				<xr:TypeId>14fc964c-0b63-427e-99f0-0f0e09c89cff</xr:TypeId>
-				<xr:ValueId>3e72f033-1604-4979-8a11-255ade3260fb</xr:ValueId>
+			<xr:GeneratedType name="BusinessProcessSelection.БизнесПроцесс1" category="Selection">
+				<xr:TypeId>35063308-03e7-4d0e-afb5-e9e54148007d</xr:TypeId>
+				<xr:ValueId>e64c3cc2-8a76-405d-830a-2331e8fab36c</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.Организации" category="List">
-				<xr:TypeId>f697a71e-5926-4699-ad33-5cd4c7ff5248</xr:TypeId>
-				<xr:ValueId>ea0c7f1c-e904-4e56-8032-682677e29f45</xr:ValueId>
+			<xr:GeneratedType name="BusinessProcessList.БизнесПроцесс1" category="List">
+				<xr:TypeId>129494ce-4969-4a38-baa2-8d7468b9fb51</xr:TypeId>
+				<xr:ValueId>718fd98b-5f66-4034-a204-797ac28f56ab</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.Организации" category="Manager">
-				<xr:TypeId>00304c8e-c197-4032-883a-c438e0f873d2</xr:TypeId>
-				<xr:ValueId>76f8914d-0d4e-4d12-8398-0be351c566a7</xr:ValueId>
+			<xr:GeneratedType name="BusinessProcessManager.БизнесПроцесс1" category="Manager">
+				<xr:TypeId>39f37426-4a91-4182-8062-a3b3de2086c3</xr:TypeId>
+				<xr:ValueId>3d2ddd0e-c8ca-4d63-9306-2801bbc4f16a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessRoutePointRef.БизнесПроцесс1" category="RoutePointRef">
+				<xr:TypeId>25ca12f0-7b08-4abb-9652-c360ba2d44e5</xr:TypeId>
+				<xr:ValueId>57e91af7-70a4-422d-8624-cca3e5fdfa6e</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Организации</Name>
+			<Name>БизнесПроцесс1</Name>
 			<Synonym/>
 			<Comment/>
-			<Hierarchical>false</Hierarchical>
-			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
-			<LimitLevelCount>false</LimitLevelCount>
-			<LevelCount>2</LevelCount>
-			<FoldersOnTop>true</FoldersOnTop>
 			<UseStandardCommands>true</UseStandardCommands>
-			<Owners/>
-			<SubordinationUse>ToItems</SubordinationUse>
-			<CodeLength>9</CodeLength>
-			<DescriptionLength>25</DescriptionLength>
-			<CodeType>String</CodeType>
-			<CodeAllowedLength>Variable</CodeAllowedLength>
-			<CodeSeries>WholeCatalog</CodeSeries>
-			<CheckUnique>true</CheckUnique>
-			<Autonumbering>true</Autonumbering>
-			<DefaultPresentation>AsDescription</DefaultPresentation>
-			<Characteristics/>
-			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
 			<EditType>InDialog</EditType>
-			<QuickChoice>false</QuickChoice>
-			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.Организации.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.Организации.StandardAttribute.Code</xr:Field>
+				<xr:Field>BusinessProcess.БизнесПроцесс1.StandardAttribute.Number</xr:Field>
 			</InputByString>
+			<CreateOnInput>DontUse</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
-			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
+			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<DefaultObjectForm/>
-			<DefaultFolderForm/>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
-			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
-			<AuxiliaryFolderForm/>
 			<AuxiliaryListForm/>
 			<AuxiliaryChoiceForm/>
-			<AuxiliaryFolderChoiceForm/>
-			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+			<NumberType>String</NumberType>
+			<NumberLength>9</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+			<CheckUnique>true</CheckUnique>
+			<Characteristics/>
+			<Autonumbering>true</Autonumbering>
 			<BasedOn/>
+			<NumberPeriodicity>Nonperiodical</NumberPeriodicity>
+			<Task>Task.Задача2</Task>
+			<CreateTaskInPrivilegedMode>true</CreateTaskInPrivilegedMode>
 			<DataLockFields/>
 			<DataLockControlMode>Managed</DataLockControlMode>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<FullTextSearch>Use</FullTextSearch>
 			<ObjectPresentation/>
 			<ExtendedObjectPresentation/>
 			<ListPresentation/>
 			<ExtendedListPresentation/>
 			<Explanation/>
-			<CreateOnInput>Use</CreateOnInput>
-			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="69a8abad-9046-4a30-b00b-0e289660beb4">
+			<Attribute uuid="83c09334-293b-42bc-915b-9b0f876f29a3">
 				<Properties>
-					<Name>ИНН</Name>
-					<Synonym/>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>20</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="dcac636f-1287-4441-a4e3-d8b3053e946b">
-				<Properties>
-					<Name>Руководитель</Name>
+					<Name>Автор</Name>
 					<Synonym/>
 					<Comment/>
 					<Type>
@@ -146,34 +97,65 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<TabularSection uuid="7b886b5e-c3d1-4e7d-ac03-a2a0e57ece27">
+			<Attribute uuid="ec7f6bf4-e4d5-49a8-bb31-ed311f8b6d56">
+				<Properties>
+					<Name>Организация</Name>
+					<Synonym/>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="b3c8f104-2962-4112-a5d6-5e36576494b0">
 				<InternalInfo>
-					<xr:GeneratedType name="CatalogTabularSection.Организации.КонтактнаяИнформация" category="TabularSection">
-						<xr:TypeId>5a6b2d79-99c1-4eb9-8abb-13b670def9ba</xr:TypeId>
-						<xr:ValueId>9b6a424c-4e70-49b2-8ad2-2bebed178afb</xr:ValueId>
+					<xr:GeneratedType name="BusinessProcessTabularSection.БизнесПроцесс1.Товары" category="TabularSection">
+						<xr:TypeId>18f24c4c-d8bf-4e1e-ac07-6049b385b928</xr:TypeId>
+						<xr:ValueId>4dac9c9c-3cb1-497d-814c-7b3ceb86412d</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="CatalogTabularSectionRow.Организации.КонтактнаяИнформация" category="TabularSectionRow">
-						<xr:TypeId>cf46dc37-2cd2-4657-9539-b863d2a75fb3</xr:TypeId>
-						<xr:ValueId>fa7e4efc-f012-47d8-8f22-3a37f7d446ef</xr:ValueId>
+					<xr:GeneratedType name="BusinessProcessTabularSectionRow.БизнесПроцесс1.Товары" category="TabularSectionRow">
+						<xr:TypeId>269fae57-5545-4f38-a549-4eb06a41c89e</xr:TypeId>
+						<xr:ValueId>d89f4001-681b-4473-b5eb-b7f54a873745</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<Name>КонтактнаяИнформация</Name>
+					<Name>Товары</Name>
 					<Synonym/>
 					<Comment/>
 					<ToolTip/>
 					<FillChecking>DontCheck</FillChecking>
-					<Use>ForItem</Use>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="35733e55-5c9a-4e10-96b7-a347e2678385">
+					<Attribute uuid="a0844898-5e11-407b-abb0-75421de6a47b">
 						<Properties>
-							<Name>ВидИнформации</Name>
+							<Name>Номенклатура</Name>
 							<Synonym/>
 							<Comment/>
 							<Type>
@@ -206,17 +188,18 @@
 							<FullTextSearch>Use</FullTextSearch>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="85b48324-9be3-4d8f-a50b-c8dde2fa6f49">
+					<Attribute uuid="8b65950e-9afa-4143-989b-e868980b876f">
 						<Properties>
-							<Name>Значение</Name>
+							<Name>Количество</Name>
 							<Synonym/>
 							<Comment/>
 							<Type>
-								<v8:Type>xs:string</v8:Type>
-								<v8:StringQualifiers>
-									<v8:Length>100</v8:Length>
-									<v8:AllowedLength>Variable</v8:AllowedLength>
-								</v8:StringQualifiers>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>10</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
@@ -244,5 +227,5 @@
 				</ChildObjects>
 			</TabularSection>
 		</ChildObjects>
-	</Catalog>
+	</BusinessProcess>
 </MetaDataObject>

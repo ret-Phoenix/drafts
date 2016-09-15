@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject 
+	xmlns="http://v8.1c.ru/8.3/MDClasses" 
+	xmlns:app="http://v8.1c.ru/8.2/managed-application/core" 
+	xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" 
+	xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" 
+	xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" 
+	xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" 
+	xmlns:style="http://v8.1c.ru/8.1/data/ui/style" 
+	xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" 
+	xmlns:v8="http://v8.1c.ru/8.1/data/core" 
+	xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" 
+	xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" 
+	xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" 
+	xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" 
+	xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" 
+	xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Task uuid="c222fee2-53fa-40ba-8b59-8474f9fa741f">
+		<InternalInfo>
+			<xr:GeneratedType name="TaskObject.Задача1" category="Object">
+				<xr:TypeId>73b5cec3-234c-487d-a9a5-2b6a6f11f2ec</xr:TypeId>
+				<xr:ValueId>eb85eab7-0f66-4d22-b69b-7ce49c425302</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="TaskRef.Задача1" category="Ref">
+				<xr:TypeId>14eb352b-90eb-4a8a-bc19-08d453e5be8a</xr:TypeId>
+				<xr:ValueId>00914ef8-e5c3-4ab5-8055-c232e0c76021</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="TaskSelection.Задача1" category="Selection">
+				<xr:TypeId>886dddcb-f392-43c6-a724-193e21af0daf</xr:TypeId>
+				<xr:ValueId>32a34b43-2346-4ba4-bdc4-43544e6c3a2d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="TaskList.Задача1" category="List">
+				<xr:TypeId>10bcd98c-a915-4efc-afab-3a89d807b2fa</xr:TypeId>
+				<xr:ValueId>63599424-981c-4c1f-aa7a-4e23204b42fd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="TaskManager.Задача1" category="Manager">
+				<xr:TypeId>133de136-dd09-426b-b046-db2c9f6e241f</xr:TypeId>
+				<xr:ValueId>1c2ac686-b627-4d14-805e-8f1078e96c82</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Задача1</Name>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="eacd82b8-6c0e-4730-8e61-c890ce0fb197">
+				<Properties>
+					<Name>Автор</Name>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b070c16d-7544-41ea-b3f3-d3f0535eb10f">
+				<Properties>
+					<Name>Организация</Name>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="35f9a407-71fa-43be-817c-a36361943f4b">
+				<InternalInfo>
+					<xr:GeneratedType name="ReportTabularSection.Задача1.Товары" category="TabularSection">
+						<xr:TypeId>a55801d6-3b59-4ccd-ab0f-a7f96a676834</xr:TypeId>
+						<xr:ValueId>e82b8edb-0d72-4a8d-9f43-4adecebfceac</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="ReportTabularSectionRow.Задача1.Товары" category="TabularSectionRow">
+						<xr:TypeId>6d4fa9dd-45e8-488e-826a-8b62e16d805e</xr:TypeId>
+						<xr:ValueId>2285ccce-063f-48c7-822c-02746bc32327</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Товары</Name>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="fe23e143-07f3-48cc-a64e-8f8e3e792c31">
+						<Properties>
+							<Name>Номенклатура</Name>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>100</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="fe452e33-0f78-4d9d-a859-e37a1e43ec80">
+						<Properties>
+							<Name>Количество</Name>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>10</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<AddressingAttribute uuid="45f4ae52-2fb1-47ca-b615-a5dae74e8709">
+				<Properties>
+					<Name>Автор1</Name>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+					</Type>
+				</Properties>
+			</AddressingAttribute>
+		</ChildObjects>
+	</Task>
+</MetaDataObject>

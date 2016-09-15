@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" 
+ xmlns:app="http://v8.1c.ru/8.2/managed-application/core" 
+ xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config"
+ xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" 
+ xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" 
+ xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" 
+ xmlns:style="http://v8.1c.ru/8.1/data/ui/style" 
+ xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" 
+ xmlns:v8="http://v8.1c.ru/8.1/data/core" 
+ xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" 
+ xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" 
+ xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" 
+ xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" 
+ xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" 
+ xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" 
+ xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+
+<ChartOfCharacteristicTypes uuid="4c7c700f-9b80-497e-b82f-36fb600cf650">
+		<InternalInfo>
+
+			<xr:GeneratedType name="ChartOfCharacteristicTypesObject.ПланВидовХарактеристик1" category="Object">
+				<xr:TypeId>939a3e5e-6afd-43c2-98a4-0c081bac983f</xr:TypeId>
+				<xr:ValueId>ec4943bd-132e-40ed-920d-e6ee66c07ce8</xr:ValueId>
+			</xr:GeneratedType>
+
+
+			<xr:GeneratedType name="ChartOfCharacteristicTypesRef.ПланВидовХарактеристик1" category="Ref">
+				<xr:TypeId>d29aa114-7916-455c-9052-817c04c0134d</xr:TypeId>
+				<xr:ValueId>6879070a-0b2d-47e3-97cf-f48fef0126a3</xr:ValueId>
+			</xr:GeneratedType>
+
+
+			<xr:GeneratedType name="ChartOfCharacteristicTypesSelection.ПланВидовХарактеристик1" category="Selection">
+				<xr:TypeId>87e90841-0a50-4e82-8dd4-1cb1d6d81aee</xr:TypeId>
+				<xr:ValueId>dc1f76d3-2e58-44bf-8601-35df8a16f514</xr:ValueId>
+			</xr:GeneratedType>
+
+
+			<xr:GeneratedType name="ChartOfCharacteristicTypesList.ПланВидовХарактеристик1" category="List">
+				<xr:TypeId>fc6cfae2-dc01-43a6-915b-195e10c95b3a</xr:TypeId>
+				<xr:ValueId>8e7fab4e-69cb-4394-b3e4-2872ecb345bb</xr:ValueId>
+			</xr:GeneratedType>
+
+
+			<xr:GeneratedType name="Characteristic.ПланВидовХарактеристик1" category="Characteristic">
+				<xr:TypeId>804663bb-f3d6-472f-ba6d-faf4b605589b</xr:TypeId>
+				<xr:ValueId>b355e8d1-f721-4220-8b9d-06647673a951</xr:ValueId>
+			</xr:GeneratedType>
+
+
+			<xr:GeneratedType name="ChartOfCharacteristicTypesManager.ПланВидовХарактеристик1" category="Manager">
+				<xr:TypeId>38ca2de3-67c3-4579-8ade-ad847b70de5d</xr:TypeId>
+				<xr:ValueId>2a7f9dea-4c5e-4f18-963f-b1780b324419</xr:ValueId>
+			</xr:GeneratedType>
+
+		</InternalInfo>
+<Properties>
+		<Name>ПланВидовХарактеристик1</Name>
+</Properties><ChildObjects>
+<Attribute uuid="2f07bc90-9106-488c-848e-8cbd61cde30d">
+	<Properties>
+		<Name>Автор</Name>
+
+		<Type>
+<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+</Type>
+
+	</Properties>
+</Attribute>
+<TabularSection uuid="9a13adb8-7c9d-463a-9c20-430c5ec6c5ea">
+				<InternalInfo>
+					<xr:GeneratedType name="ReportTabularSection.ПланВидовХарактеристик1.Категории" category="TabularSection">
+						<xr:TypeId>3ffe341c-0431-42aa-b300-1fb66cd3fe06</xr:TypeId>
+						<xr:ValueId>72dd481f-1521-4115-abe1-15a6dc421a4f</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="ReportTabularSectionRow.ПланВидовХарактеристик1.Категории" category="TabularSectionRow">
+						<xr:TypeId>5c9f5cd3-c569-4e6b-bf80-9c343a53fa11</xr:TypeId>
+						<xr:ValueId>12403022-bac9-4173-a6d8-93f03e3be412</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+	<Properties>
+	
+
+		<Name>Категории</Name>
+
+</Properties>
+		<ChildObjects>
+
+<Attribute uuid="f6a22099-dc5d-4936-aeba-539d340c9fe6">
+<Properties>
+
+		<Name>Цвет</Name>
+
+		<Type><v8:Type>xs:string</v8:Type>
+
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+</Type>
+
+</Properties>
+</Attribute>
+
+<Attribute uuid="0ddd52b4-d2eb-40f2-bf6d-0744d690ba03">
+<Properties>
+
+		<Name>Значение</Name>
+
+		<Type><v8:Type>xs:string</v8:Type>
+
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+</Type>
+
+</Properties>
+</Attribute>
+
+		</ChildObjects>
+</TabularSection></ChildObjects>
+</ChartOfCharacteristicTypes>
+</MetaDataObject>

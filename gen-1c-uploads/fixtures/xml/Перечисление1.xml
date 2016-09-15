@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" 
+ xmlns:app="http://v8.1c.ru/8.2/managed-application/core" 
+ xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config"
+ xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" 
+ xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" 
+ xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" 
+ xmlns:style="http://v8.1c.ru/8.1/data/ui/style" 
+ xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" 
+ xmlns:v8="http://v8.1c.ru/8.1/data/core" 
+ xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" 
+ xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" 
+ xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" 
+ xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" 
+ xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" 
+ xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" 
+ xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+
+<Enum uuid="2411bdf1-b3b1-4143-ad65-7a062523adc3">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.Перечисление1" category="Ref">
+				<xr:TypeId>4f186fc4-b0b8-4416-8315-a81c4d5b9206</xr:TypeId>
+				<xr:ValueId>f4deb1aa-f318-4fe6-aea8-f15ab7fc98a2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.Перечисление1" category="List">
+				<xr:TypeId>d37ce170-4292-4546-a21a-32657582e51c</xr:TypeId>
+				<xr:ValueId>e174b8a5-1cd3-47ef-b0df-75d50dfa5e9a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.Перечисление1" category="Manager">
+				<xr:TypeId>c9cb52a5-73b4-4d0a-ba0b-cc296b270caa</xr:TypeId>
+				<xr:ValueId>8bfadba8-38b7-4920-b2fe-760b499cba5b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+<Properties>
+		<Name>Перечисление1</Name>
+</Properties><ChildObjects>
+<EnumValue uuid="f8b59db2-29c6-4815-ab40-a3250759d6ac">
+	<Properties>
+		<Name>Кредит</Name>
+
+	</Properties>
+</EnumValue>
+<EnumValue uuid="9057c497-475d-4236-81d4-85ec4c162677">
+	<Properties>
+		<Name>Депозит</Name>
+
+	</Properties>
+</EnumValue></ChildObjects>
+</Enum>
+</MetaDataObject>

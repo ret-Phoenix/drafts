@@ -1,51 +1,52 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" 
- xmlns:app="http://v8.1c.ru/8.2/managed-application/core" 
- xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config"
- xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" 
- xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" 
- xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" 
- xmlns:style="http://v8.1c.ru/8.1/data/ui/style" 
- xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" 
- xmlns:v8="http://v8.1c.ru/8.1/data/core" 
- xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" 
- xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" 
- xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" 
- xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" 
- xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" 
- xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" 
- xmlns:xs="http://www.w3.org/2001/XMLSchema" 
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
-
-<Enum uuid="bbb78d60-ba8d-49db-8d6e-2e9c57707d35">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<Enum uuid="bbb78d60-ba8d-49db-8d6e-2e9c57707d35">
 		<InternalInfo>
 			<xr:GeneratedType name="EnumRef.Перечисление1" category="Ref">
 				<xr:TypeId>5f41642d-c0ed-4a66-b2be-be872d0e0ffe</xr:TypeId>
 				<xr:ValueId>13e37307-8ace-486a-8703-ad42a8f03091</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="EnumList.Перечисление1" category="List">
-				<xr:TypeId>cf0bb546-23e4-4245-a30a-69b5e5d0abaf</xr:TypeId>
-				<xr:ValueId>b37e8264-4bc9-49b3-99f7-f1b7c0818fc5</xr:ValueId>
-			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumManager.Перечисление1" category="Manager">
 				<xr:TypeId>a980ded1-e708-46c2-867a-ef6d6f344b47</xr:TypeId>
 				<xr:ValueId>3e101e68-eb22-40c4-8662-d4d552d29b85</xr:ValueId>
 			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.Перечисление1" category="List">
+				<xr:TypeId>cf0bb546-23e4-4245-a30a-69b5e5d0abaf</xr:TypeId>
+				<xr:ValueId>b37e8264-4bc9-49b3-99f7-f1b7c0818fc5</xr:ValueId>
+			</xr:GeneratedType>
 		</InternalInfo>
-<Properties>
-		<Name>Перечисление1</Name>
-</Properties><ChildObjects>
-<EnumValue uuid="d71529fd-56a4-4f80-a83f-ce5de1e5badd">
-	<Properties>
-		<Name>Кредит</Name>
-
-	</Properties>
-</EnumValue>
-<EnumValue uuid="1af657ac-2292-41b1-9380-9eae01fe951c">
-	<Properties>
-		<Name>Депозит</Name>
-
-	</Properties>
-</EnumValue></ChildObjects>
-</Enum>
+		<Properties>
+			<Name>Перечисление1</Name>
+			<Synonym/>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="d71529fd-56a4-4f80-a83f-ce5de1e5badd">
+				<Properties>
+					<Name>Кредит</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1af657ac-2292-41b1-9380-9eae01fe951c">
+				<Properties>
+					<Name>Депозит</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
 </MetaDataObject>

@@ -1,45 +1,52 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
-	<Catalog uuid="43ac9e61-fd73-46f4-8414-07822c41fb26">
+	<ChartOfCharacteristicTypes uuid="4c7c700f-9b80-497e-b82f-36fb600cf650">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.Организации" category="Object">
-				<xr:TypeId>7c6e048d-4182-4a19-ab50-a256d915188d</xr:TypeId>
-				<xr:ValueId>b39f392f-6f0f-4d0e-80c9-17eec58a8a3c</xr:ValueId>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesObject.ПланВидовХарактеристик1" category="Object">
+				<xr:TypeId>939a3e5e-6afd-43c2-98a4-0c081bac983f</xr:TypeId>
+				<xr:ValueId>ec4943bd-132e-40ed-920d-e6ee66c07ce8</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.Организации" category="Ref">
-				<xr:TypeId>8e385a9c-6e67-4392-8b50-cc85a86111ea</xr:TypeId>
-				<xr:ValueId>8566a565-e9fc-4205-bc45-335df40f7d23</xr:ValueId>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesRef.ПланВидовХарактеристик1" category="Ref">
+				<xr:TypeId>d29aa114-7916-455c-9052-817c04c0134d</xr:TypeId>
+				<xr:ValueId>6879070a-0b2d-47e3-97cf-f48fef0126a3</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.Организации" category="Selection">
-				<xr:TypeId>14fc964c-0b63-427e-99f0-0f0e09c89cff</xr:TypeId>
-				<xr:ValueId>3e72f033-1604-4979-8a11-255ade3260fb</xr:ValueId>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesSelection.ПланВидовХарактеристик1" category="Selection">
+				<xr:TypeId>87e90841-0a50-4e82-8dd4-1cb1d6d81aee</xr:TypeId>
+				<xr:ValueId>dc1f76d3-2e58-44bf-8601-35df8a16f514</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.Организации" category="List">
-				<xr:TypeId>f697a71e-5926-4699-ad33-5cd4c7ff5248</xr:TypeId>
-				<xr:ValueId>ea0c7f1c-e904-4e56-8032-682677e29f45</xr:ValueId>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesList.ПланВидовХарактеристик1" category="List">
+				<xr:TypeId>fc6cfae2-dc01-43a6-915b-195e10c95b3a</xr:TypeId>
+				<xr:ValueId>8e7fab4e-69cb-4394-b3e4-2872ecb345bb</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.Организации" category="Manager">
-				<xr:TypeId>00304c8e-c197-4032-883a-c438e0f873d2</xr:TypeId>
-				<xr:ValueId>76f8914d-0d4e-4d12-8398-0be351c566a7</xr:ValueId>
+			<xr:GeneratedType name="Characteristic.ПланВидовХарактеристик1" category="Characteristic">
+				<xr:TypeId>804663bb-f3d6-472f-ba6d-faf4b605589b</xr:TypeId>
+				<xr:ValueId>b355e8d1-f721-4220-8b9d-06647673a951</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesManager.ПланВидовХарактеристик1" category="Manager">
+				<xr:TypeId>38ca2de3-67c3-4579-8ade-ad847b70de5d</xr:TypeId>
+				<xr:ValueId>2a7f9dea-4c5e-4f18-963f-b1780b324419</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Организации</Name>
+			<Name>ПланВидовХарактеристик1</Name>
 			<Synonym/>
 			<Comment/>
-			<Hierarchical>false</Hierarchical>
-			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
-			<LimitLevelCount>false</LimitLevelCount>
-			<LevelCount>2</LevelCount>
-			<FoldersOnTop>true</FoldersOnTop>
 			<UseStandardCommands>true</UseStandardCommands>
-			<Owners/>
-			<SubordinationUse>ToItems</SubordinationUse>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<CharacteristicExtValues/>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>10</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Hierarchical>false</Hierarchical>
+			<FoldersOnTop>true</FoldersOnTop>
 			<CodeLength>9</CodeLength>
-			<DescriptionLength>25</DescriptionLength>
-			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
-			<CodeSeries>WholeCatalog</CodeSeries>
+			<DescriptionLength>25</DescriptionLength>
+			<CodeSeries>WholeCharacteristicKind</CodeSeries>
 			<CheckUnique>true</CheckUnique>
 			<Autonumbering>true</Autonumbering>
 			<DefaultPresentation>AsDescription</DefaultPresentation>
@@ -49,12 +56,14 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.Организации.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.Организации.StandardAttribute.Code</xr:Field>
+				<xr:Field>ChartOfCharacteristicTypes.ПланВидовХарактеристик1.StandardAttribute.Description</xr:Field>
+				<xr:Field>ChartOfCharacteristicTypes.ПланВидовХарактеристик1.StandardAttribute.Code</xr:Field>
 			</InputByString>
+			<CreateOnInput>DontUse</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
-			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
+			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 			<DefaultObjectForm/>
 			<DefaultFolderForm/>
 			<DefaultListForm/>
@@ -65,7 +74,6 @@
 			<AuxiliaryListForm/>
 			<AuxiliaryChoiceForm/>
 			<AuxiliaryFolderChoiceForm/>
-			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<BasedOn/>
 			<DataLockFields/>
 			<DataLockControlMode>Managed</DataLockControlMode>
@@ -75,51 +83,11 @@
 			<ListPresentation/>
 			<ExtendedListPresentation/>
 			<Explanation/>
-			<CreateOnInput>Use</CreateOnInput>
-			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="69a8abad-9046-4a30-b00b-0e289660beb4">
+			<Attribute uuid="2f07bc90-9106-488c-848e-8cbd61cde30d">
 				<Properties>
-					<Name>ИНН</Name>
-					<Synonym/>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>20</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="dcac636f-1287-4441-a4e3-d8b3053e946b">
-				<Properties>
-					<Name>Руководитель</Name>
+					<Name>Автор</Name>
 					<Synonym/>
 					<Comment/>
 					<Type>
@@ -146,24 +114,24 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
 					<Indexing>DontIndex</Indexing>
+					<Use>ForItem</Use>
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<TabularSection uuid="7b886b5e-c3d1-4e7d-ac03-a2a0e57ece27">
+			<TabularSection uuid="9a13adb8-7c9d-463a-9c20-430c5ec6c5ea">
 				<InternalInfo>
-					<xr:GeneratedType name="CatalogTabularSection.Организации.КонтактнаяИнформация" category="TabularSection">
-						<xr:TypeId>5a6b2d79-99c1-4eb9-8abb-13b670def9ba</xr:TypeId>
-						<xr:ValueId>9b6a424c-4e70-49b2-8ad2-2bebed178afb</xr:ValueId>
+					<xr:GeneratedType name="ChartOfCharacteristicTypesTabularSection.ПланВидовХарактеристик1.Категории" category="TabularSection">
+						<xr:TypeId>3ffe341c-0431-42aa-b300-1fb66cd3fe06</xr:TypeId>
+						<xr:ValueId>72dd481f-1521-4115-abe1-15a6dc421a4f</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="CatalogTabularSectionRow.Организации.КонтактнаяИнформация" category="TabularSectionRow">
-						<xr:TypeId>cf46dc37-2cd2-4657-9539-b863d2a75fb3</xr:TypeId>
-						<xr:ValueId>fa7e4efc-f012-47d8-8f22-3a37f7d446ef</xr:ValueId>
+					<xr:GeneratedType name="ChartOfCharacteristicTypesTabularSectionRow.ПланВидовХарактеристик1.Категории" category="TabularSectionRow">
+						<xr:TypeId>5c9f5cd3-c569-4e6b-bf80-9c343a53fa11</xr:TypeId>
+						<xr:ValueId>12403022-bac9-4173-a6d8-93f03e3be412</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<Name>КонтактнаяИнформация</Name>
+					<Name>Категории</Name>
 					<Synonym/>
 					<Comment/>
 					<ToolTip/>
@@ -171,9 +139,9 @@
 					<Use>ForItem</Use>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="35733e55-5c9a-4e10-96b7-a347e2678385">
+					<Attribute uuid="f6a22099-dc5d-4936-aeba-539d340c9fe6">
 						<Properties>
-							<Name>ВидИнформации</Name>
+							<Name>Цвет</Name>
 							<Synonym/>
 							<Comment/>
 							<Type>
@@ -206,7 +174,7 @@
 							<FullTextSearch>Use</FullTextSearch>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="85b48324-9be3-4d8f-a50b-c8dde2fa6f49">
+					<Attribute uuid="0ddd52b4-d2eb-40f2-bf6d-0744d690ba03">
 						<Properties>
 							<Name>Значение</Name>
 							<Synonym/>
@@ -244,5 +212,5 @@
 				</ChildObjects>
 			</TabularSection>
 		</ChildObjects>
-	</Catalog>
+	</ChartOfCharacteristicTypes>
 </MetaDataObject>

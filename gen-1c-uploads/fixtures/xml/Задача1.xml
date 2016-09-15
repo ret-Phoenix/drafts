@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" 
+ xmlns:app="http://v8.1c.ru/8.2/managed-application/core" 
+ xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config"
+ xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" 
+ xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" 
+ xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" 
+ xmlns:style="http://v8.1c.ru/8.1/data/ui/style" 
+ xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" 
+ xmlns:v8="http://v8.1c.ru/8.1/data/core" 
+ xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" 
+ xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" 
+ xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" 
+ xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" 
+ xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" 
+ xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" 
+ xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+
+<Task uuid="fec15a74-bab1-401e-a8c0-a554ce96f949">
+		<InternalInfo>
+
+			<xr:GeneratedType name="TaskObject.Задача1" category="Object">
+				<xr:TypeId>0eac472f-1624-4180-b2a6-3e6ad8e2ef62</xr:TypeId>
+				<xr:ValueId>849f4970-d2b8-4bdb-b137-ee3a14d905dc</xr:ValueId>
+			</xr:GeneratedType>
+
+
+			<xr:GeneratedType name="TaskRef.Задача1" category="Ref">
+				<xr:TypeId>0d13e689-bd20-4869-ab29-bf4c8f39e4f3</xr:TypeId>
+				<xr:ValueId>42d40045-5f93-4b3a-9e16-e2a21d31ad63</xr:ValueId>
+			</xr:GeneratedType>
+
+
+			<xr:GeneratedType name="TaskSelection.Задача1" category="Selection">
+				<xr:TypeId>fee4457d-af01-4ca5-b8e5-958bf10eaba8</xr:TypeId>
+				<xr:ValueId>fb5a2b5e-ce28-4238-8510-0e3c6e839896</xr:ValueId>
+			</xr:GeneratedType>
+
+
+			<xr:GeneratedType name="TaskList.Задача1" category="List">
+				<xr:TypeId>aeb5dcf4-047f-4df7-9fe0-392e8d65472b</xr:TypeId>
+				<xr:ValueId>744db8f7-1b29-4738-8ffb-1fe7357d5388</xr:ValueId>
+			</xr:GeneratedType>
+
+
+			<xr:GeneratedType name="TaskManager.Задача1" category="Manager">
+				<xr:TypeId>c6072ccd-1a35-46c7-b9ba-a7a1de48454e</xr:TypeId>
+				<xr:ValueId>dabb6b8d-7dee-405c-826f-13a8c20d0137</xr:ValueId>
+			</xr:GeneratedType>
+
+		</InternalInfo>
+<Properties>
+		<Name>Задача1</Name>
+</Properties><ChildObjects>
+<Attribute uuid="4baef4ab-aa43-4b5d-8919-6210866267a3">
+	<Properties>
+		<Name>Автор</Name>
+
+		<Type>
+<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+</Type>
+
+	</Properties>
+</Attribute>
+<Attribute uuid="6325a579-dbec-42c4-91dc-82ed52178187">
+	<Properties>
+		<Name>Организация</Name>
+
+		<Type>
+<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+</Type>
+
+	</Properties>
+</Attribute>
+<TabularSection uuid="78d1137f-2591-44e1-ad8a-9fda902056cc">
+				<InternalInfo>
+					<xr:GeneratedType name="ReportTabularSection.Задача1.Товары" category="TabularSection">
+						<xr:TypeId>eac54f74-42df-432b-878d-5b880a849bb8</xr:TypeId>
+						<xr:ValueId>f4c568ea-d378-4f1d-80fa-bfab58a131e9</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="ReportTabularSectionRow.Задача1.Товары" category="TabularSectionRow">
+						<xr:TypeId>dbde9dd3-0192-4998-9dae-08bf2d8d5bd5</xr:TypeId>
+						<xr:ValueId>e2ca7be5-c3f8-4e46-a77b-f5c7848d188a</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+	<Properties>
+	
+
+		<Name>Товары</Name>
+
+</Properties>
+		<ChildObjects>
+
+<Attribute uuid="bb8ee20c-c05e-4135-8421-3e9bc6d31937">
+<Properties>
+
+		<Name>Номенклатура</Name>
+
+		<Type><v8:Type>xs:string</v8:Type>
+
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+</Type>
+
+</Properties>
+</Attribute>
+
+<Attribute uuid="853413af-4a9b-42c9-8c4b-1cf9fa3c3fa5">
+<Properties>
+
+		<Name>Количество</Name>
+
+		<Type><v8:Type>xs:decimal</v8:Type>
+
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+						</v8:NumberQualifiers>
+</Type>
+
+</Properties>
+</Attribute>
+
+		</ChildObjects>
+</TabularSection>
+<AddressingAttribute uuid="9672f1f4-d160-4070-b062-2736c94ca1f3">
+	<Properties>
+		<Name>Автор1</Name>
+
+		<Type>
+<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+</Type>
+
+	</Properties>
+</AddressingAttribute></ChildObjects>
+</Task>
+</MetaDataObject>

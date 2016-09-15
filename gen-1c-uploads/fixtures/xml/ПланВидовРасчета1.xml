@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" 
+ xmlns:app="http://v8.1c.ru/8.2/managed-application/core" 
+ xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config"
+ xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" 
+ xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" 
+ xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" 
+ xmlns:style="http://v8.1c.ru/8.1/data/ui/style" 
+ xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" 
+ xmlns:v8="http://v8.1c.ru/8.1/data/core" 
+ xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" 
+ xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" 
+ xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" 
+ xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" 
+ xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" 
+ xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" 
+ xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+
+<ChartOfCalculationTypes uuid="eafd5d61-d956-4704-9182-26311ccabfe5">
+		<InternalInfo>
+
+			<xr:GeneratedType name="ChartOfCalculationTypesObject.ПланВидовРасчета1" category="Object">
+				<xr:TypeId>47df27ea-2364-404a-88b0-efa1b950d654</xr:TypeId>
+				<xr:ValueId>4c2d0972-7b0e-44f6-8569-7e1602eae86a</xr:ValueId>
+			</xr:GeneratedType>
+
+
+			<xr:GeneratedType name="ChartOfCalculationTypesRef.ПланВидовРасчета1" category="Ref">
+				<xr:TypeId>afbbba0a-0650-4897-8b28-311f8189ea02</xr:TypeId>
+				<xr:ValueId>8924af82-c66e-4980-a2ea-6875f5702051</xr:ValueId>
+			</xr:GeneratedType>
+
+
+			<xr:GeneratedType name="ChartOfCalculationTypesSelection.ПланВидовРасчета1" category="Selection">
+				<xr:TypeId>772d8c45-9e9f-45a7-909b-979db41cc288</xr:TypeId>
+				<xr:ValueId>4fa4dc76-dd33-4d08-90ab-5bf3e7027276</xr:ValueId>
+			</xr:GeneratedType>
+
+
+			<xr:GeneratedType name="ChartOfCalculationTypesList.ПланВидовРасчета1" category="List">
+				<xr:TypeId>3a100901-d0b9-4ad7-8765-3fad2a8a8a19</xr:TypeId>
+				<xr:ValueId>387318bd-2322-4115-a903-6ddabdedba8f</xr:ValueId>
+			</xr:GeneratedType>
+
+
+			<xr:GeneratedType name="ChartOfCalculationTypesManager.ПланВидовРасчета1" category="Manager">
+				<xr:TypeId>9cebdcec-0ab8-45c9-9307-2db7b939bee4</xr:TypeId>
+				<xr:ValueId>350fe78d-3544-413b-8db9-069447909b9a</xr:ValueId>
+			</xr:GeneratedType>
+
+
+			<xr:GeneratedType name="DisplacingCalculationTypes.ПланВидовРасчета1" category="DisplacingCalculationTypes">
+				<xr:TypeId>5998b72c-8112-408f-8031-5b4e6fd85530</xr:TypeId>
+				<xr:ValueId>0f92dd9d-3c26-411d-954c-bf638aab63b9</xr:ValueId>
+			</xr:GeneratedType>
+
+
+			<xr:GeneratedType name="DisplacingCalculationTypesRow.ПланВидовРасчета1" category="DisplacingCalculationTypesRow">
+				<xr:TypeId>66379bc5-429f-438d-81c9-59cba76d541b</xr:TypeId>
+				<xr:ValueId>b3600149-9364-4482-898d-d9bbd355b9b2</xr:ValueId>
+			</xr:GeneratedType>
+
+
+			<xr:GeneratedType name="BaseCalculationTypes.ПланВидовРасчета1" category="BaseCalculationTypes">
+				<xr:TypeId>c82496e3-8019-4d66-8cb0-b21e1cbdc8e2</xr:TypeId>
+				<xr:ValueId>323e8429-7132-4b2b-8804-5a86da869f27</xr:ValueId>
+			</xr:GeneratedType>
+
+
+			<xr:GeneratedType name="BaseCalculationTypesRow.ПланВидовРасчета1" category="BaseCalculationTypesRow">
+				<xr:TypeId>f93e7d5b-4b3d-4d5c-9c3c-3df0dbad447d</xr:TypeId>
+				<xr:ValueId>5c1e6c4c-04ac-4e97-a275-f5783df18073</xr:ValueId>
+			</xr:GeneratedType>
+
+
+			<xr:GeneratedType name="LeadingCalculationTypes.ПланВидовРасчета1" category="LeadingCalculationTypes">
+				<xr:TypeId>e212e707-09a3-4f29-91ad-61514175f939</xr:TypeId>
+				<xr:ValueId>4f141f0d-4abd-4871-b524-426492478b26</xr:ValueId>
+			</xr:GeneratedType>
+
+
+			<xr:GeneratedType name="LeadingCalculationTypesRow.ПланВидовРасчета1" category="LeadingCalculationTypesRow">
+				<xr:TypeId>58ed49e1-8ffa-4f4e-9e1c-3ede55fb9caa</xr:TypeId>
+				<xr:ValueId>a1b1a299-a051-4421-9e93-0aa1c96b5b9a</xr:ValueId>
+			</xr:GeneratedType>
+
+		</InternalInfo>
+<Properties>
+		<Name>ПланВидовРасчета1</Name>
+</Properties><ChildObjects>
+<Attribute uuid="ab586f97-7b83-4f96-9a52-0775181835cc">
+	<Properties>
+		<Name>Организация</Name>
+
+		<Type>
+<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+</Type>
+
+	</Properties>
+</Attribute>
+<Attribute uuid="d9dea49b-5e18-45ba-adc8-8442dbbae65b">
+	<Properties>
+		<Name>Руководитель</Name>
+
+		<Type>
+<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+</Type>
+
+	</Properties>
+</Attribute>
+<TabularSection uuid="33804956-a511-4421-abd2-5a7a64c7bfbb">
+				<InternalInfo>
+					<xr:GeneratedType name="ReportTabularSection.ПланВидовРасчета1.ЧтоТоТам" category="TabularSection">
+						<xr:TypeId>b794f04a-b8ab-4b04-8234-a5b541500034</xr:TypeId>
+						<xr:ValueId>c1589819-b2e4-40b4-9729-b90c3d27bab3</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="ReportTabularSectionRow.ПланВидовРасчета1.ЧтоТоТам" category="TabularSectionRow">
+						<xr:TypeId>84c6dd15-d63e-4131-99e6-1e43696aa1ac</xr:TypeId>
+						<xr:ValueId>cfa3e991-0050-4c79-970e-70fe0656757c</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+	<Properties>
+	
+
+		<Name>ЧтоТоТам</Name>
+
+</Properties>
+		<ChildObjects>
+
+<Attribute uuid="037f0784-bb16-4652-a8e7-85d073c4ee40">
+<Properties>
+
+		<Name>ВидИнформации</Name>
+
+		<Type><v8:Type>xs:string</v8:Type>
+
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+</Type>
+
+</Properties>
+</Attribute>
+
+<Attribute uuid="3eb10a8e-f593-498b-8549-eabd937cedf0">
+<Properties>
+
+		<Name>Значение</Name>
+
+		<Type><v8:Type>xs:string</v8:Type>
+
+						<v8:StringQualifiers>
+							<v8:Length>150</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+</Type>
+
+</Properties>
+</Attribute>
+
+		</ChildObjects>
+</TabularSection></ChildObjects>
+</ChartOfCalculationTypes>
+</MetaDataObject>
