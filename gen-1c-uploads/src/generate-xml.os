@@ -89,10 +89,10 @@
                 ТипМ = СтрРазделить(ТипСтр, " ", Ложь);
                 Если ТипМ.Количество() > 1 Тогда
                     Квалификатор  = Квалификатор  + "
-                    |						<v8:NumberQualifiers>
-                    |							<v8:Digits>" + ТипМ[1] + "</v8:Digits>
-                    |							<v8:FractionDigits>" + ТипМ[2] + "</v8:FractionDigits>
-                    |						</v8:NumberQualifiers>
+                    |<v8:NumberQualifiers>
+                    |   <v8:Digits>" + ТипМ[1] + "</v8:Digits>
+                    |	<v8:FractionDigits>" + ТипМ[2] + "</v8:FractionDigits>
+                    |</v8:NumberQualifiers>
                     |";
                 КонецЕсли;
             ИначеЕсли СтрНачинаетсяС(ТипСтр, "Строка") Тогда
@@ -101,10 +101,10 @@
                 ТипМ = СтрРазделить(ТипСтр, " ", Ложь);
                 Если ТипМ.Количество() > 1 Тогда
                     Квалификатор  = Квалификатор  + "
-                    |						<v8:StringQualifiers>
-                    |							<v8:Length>" + ТипМ[1] + "</v8:Length>
-                    |							<v8:AllowedLength>Variable</v8:AllowedLength>
-                    |						</v8:StringQualifiers>
+                    |<v8:StringQualifiers>
+                    |   <v8:Length>" + ТипМ[1] + "</v8:Length>
+                    |	<v8:AllowedLength>Variable</v8:AllowedLength>
+                    |</v8:StringQualifiers>
                     |";
                 КонецЕсли;
             ИначеЕсли ТипСтр = "Дата" Тогда
