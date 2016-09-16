@@ -17,43 +17,43 @@
  xmlns:xs="http://www.w3.org/2001/XMLSchema" 
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
 
-<Document uuid="218b4eb6-e8da-4dc2-8dbe-2ceea71bf1e4">
+<Document uuid="b45bbad3-63df-48b0-9df6-b7977cacd0a3">
 		<InternalInfo>
 
 			<xr:GeneratedType name="DocumentObject.Документ1" category="Object">
-				<xr:TypeId>37341c3f-477c-4dc5-bcdc-a6ab3f21148b</xr:TypeId>
-				<xr:ValueId>6b7236dd-0fd0-4e75-8841-3cd9b3b1b193</xr:ValueId>
+				<xr:TypeId>5b054907-6ce4-4c9b-b648-ee5d12c5a3a2</xr:TypeId>
+				<xr:ValueId>34a4d3db-8b32-45b5-afee-62c83e3dc733</xr:ValueId>
 			</xr:GeneratedType>
 
 
 			<xr:GeneratedType name="DocumentRef.Документ1" category="Ref">
-				<xr:TypeId>628a5ffc-9dd4-440a-8006-41491c763c2e</xr:TypeId>
-				<xr:ValueId>05dd9bff-a139-4b99-aa09-6bbe5f6fd7d9</xr:ValueId>
+				<xr:TypeId>86d9d036-3f75-455a-8691-758f53b61b4d</xr:TypeId>
+				<xr:ValueId>113e2d52-4325-4b15-bd96-d44449267296</xr:ValueId>
 			</xr:GeneratedType>
 
 
 			<xr:GeneratedType name="DocumentSelection.Документ1" category="Selection">
-				<xr:TypeId>4e55d48c-5446-47ac-879a-d266a3a1e8b7</xr:TypeId>
-				<xr:ValueId>de8f4aae-1fac-4283-aa3b-a0c4dc30aaef</xr:ValueId>
+				<xr:TypeId>20eec366-8464-484c-8177-c91fe5c0d998</xr:TypeId>
+				<xr:ValueId>62227e75-9b3e-4e58-8b2f-95e48a3d90b0</xr:ValueId>
 			</xr:GeneratedType>
 
 
 			<xr:GeneratedType name="DocumentList.Документ1" category="List">
-				<xr:TypeId>90ed8738-06c9-44f2-aad3-1162e7bc3a6e</xr:TypeId>
-				<xr:ValueId>e5ad0d6d-b87a-4a4b-a47a-008568b76403</xr:ValueId>
+				<xr:TypeId>8ca78d54-203d-465f-a7bc-3234b53a41b8</xr:TypeId>
+				<xr:ValueId>3bcfa593-43ad-40f8-8a1a-255cb93496bf</xr:ValueId>
 			</xr:GeneratedType>
 
 
 			<xr:GeneratedType name="DocumentManager.Документ1" category="Manager">
-				<xr:TypeId>06004b0d-b14e-4b5e-94e4-660d023b3bdd</xr:TypeId>
-				<xr:ValueId>6fafa746-b1c3-4c60-8611-53c3e33aabf8</xr:ValueId>
+				<xr:TypeId>f0cbfc49-42a3-4db6-98e4-6a9e41274ad0</xr:TypeId>
+				<xr:ValueId>50e4601a-1355-4a61-ad76-3aa16600a916</xr:ValueId>
 			</xr:GeneratedType>
 
 		</InternalInfo>
 <Properties>
 		<Name>Документ1</Name>
 </Properties><ChildObjects>
-<Attribute uuid="fe32348e-1e53-439c-8d47-872ca353ca21">
+<Attribute uuid="e01a705a-dd7f-41ea-b82f-47d9a710ac85">
 	<Properties>
 		<Name>Автор</Name>
 
@@ -63,7 +63,7 @@
 
 	</Properties>
 </Attribute>
-<Attribute uuid="51a3d13f-ea5a-4741-99df-03eaf80f2a2c">
+<Attribute uuid="cc405cd6-12a0-4fe0-b0a9-2910e868f49a">
 	<Properties>
 		<Name>Организация</Name>
 
@@ -73,15 +73,15 @@
 
 	</Properties>
 </Attribute>
-<TabularSection uuid="4ae2c299-8c28-4182-959e-23429b30ef0f">
+<TabularSection uuid="17c6c17b-5a14-4ac1-9b79-0f779dbb64b0">
 				<InternalInfo>
 					<xr:GeneratedType name="ReportTabularSection.Документ1.Товары" category="TabularSection">
-						<xr:TypeId>15874cfb-0378-4f8b-880c-35538a922811</xr:TypeId>
-						<xr:ValueId>d054b817-7753-4b6f-a1e9-da6a67378ebd</xr:ValueId>
+						<xr:TypeId>032dd30d-9c46-4837-be8e-6042f8e20465</xr:TypeId>
+						<xr:ValueId>c1e14998-2e59-4de0-9ee6-09b69f9ee655</xr:ValueId>
 					</xr:GeneratedType>
 					<xr:GeneratedType name="ReportTabularSectionRow.Документ1.Товары" category="TabularSectionRow">
-						<xr:TypeId>444c55f9-7c89-49a6-ada7-62d66098cfa8</xr:TypeId>
-						<xr:ValueId>53fddaa2-8ad6-48aa-9f2d-9c2d85af6d76</xr:ValueId>
+						<xr:TypeId>c17d6c18-b7b6-4ef7-9cc7-4cc2095c419b</xr:TypeId>
+						<xr:ValueId>ae4d66d2-56ec-41b9-903e-99d0e306ebf0</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 	<Properties>
@@ -92,7 +92,7 @@
 </Properties>
 		<ChildObjects>
 
-<Attribute uuid="2b9ff212-68dd-4386-a059-9508bc39162d">
+<Attribute uuid="ca5e12b5-5740-41b2-a4ce-325d55649006">
 <Properties>
 
 		<Name>Номенклатура</Name>
@@ -108,7 +108,7 @@
 </Properties>
 </Attribute>
 
-<Attribute uuid="169ce76c-5b83-4828-83e9-b905d2df7549">
+<Attribute uuid="7c8bc528-2ae2-4f83-a8b8-54a76dc23648">
 <Properties>
 
 		<Name>Количество</Name>

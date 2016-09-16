@@ -17,43 +17,43 @@
  xmlns:xs="http://www.w3.org/2001/XMLSchema" 
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
 
-<Catalog uuid="ed5ff29c-e4c1-439f-9a4c-3b7c7168a60f">
+<Catalog uuid="27a541d2-928e-4dfa-a5d1-ef56b64fabc6">
 		<InternalInfo>
 
 			<xr:GeneratedType name="CatalogObject.Организации" category="Object">
-				<xr:TypeId>fcc57dde-83af-4d9e-b54a-e5ede1e9b15d</xr:TypeId>
-				<xr:ValueId>976f9b78-44b3-42f3-a109-14803905a516</xr:ValueId>
+				<xr:TypeId>a1de6afd-3f79-4b06-86ce-5a4e0e6ef1ab</xr:TypeId>
+				<xr:ValueId>3ac529b7-6e6e-4fe6-844e-cd2bda3a544f</xr:ValueId>
 			</xr:GeneratedType>
 
 
 			<xr:GeneratedType name="CatalogRef.Организации" category="Ref">
-				<xr:TypeId>2155bf19-5718-43bf-bb6c-cb4733c23351</xr:TypeId>
-				<xr:ValueId>ff234c67-4342-45fd-8eea-280fbee3f87d</xr:ValueId>
+				<xr:TypeId>02c96071-5bad-47ff-a416-922b5accca21</xr:TypeId>
+				<xr:ValueId>dce35db5-7d75-4cdc-8939-d7fe8ee76489</xr:ValueId>
 			</xr:GeneratedType>
 
 
 			<xr:GeneratedType name="CatalogSelection.Организации" category="Selection">
-				<xr:TypeId>36cf381c-a883-482a-ad90-f238e69c166b</xr:TypeId>
-				<xr:ValueId>05a0f452-4b64-4a28-a8f3-2fc838f09249</xr:ValueId>
+				<xr:TypeId>93e11692-f326-4264-bd12-6e05223018f0</xr:TypeId>
+				<xr:ValueId>95657a26-649b-4988-b1bf-345e13c868b7</xr:ValueId>
 			</xr:GeneratedType>
 
 
 			<xr:GeneratedType name="CatalogList.Организации" category="List">
-				<xr:TypeId>731234c5-8db1-4742-be66-e49ffbaa0984</xr:TypeId>
-				<xr:ValueId>b9353c34-b0ab-437b-9375-805923448e21</xr:ValueId>
+				<xr:TypeId>20a1f3f7-ca4e-454c-819f-c85b7f4134c4</xr:TypeId>
+				<xr:ValueId>f6130acd-dcdd-4830-9beb-2b9693764065</xr:ValueId>
 			</xr:GeneratedType>
 
 
 			<xr:GeneratedType name="CatalogManager.Организации" category="Manager">
-				<xr:TypeId>d70e7105-fcfe-40d0-8ebb-b5e4c2e42c2d</xr:TypeId>
-				<xr:ValueId>29a1189f-bc58-4003-8382-831384b270e0</xr:ValueId>
+				<xr:TypeId>f5af494c-e0d6-4071-8483-053fa3f2dfcc</xr:TypeId>
+				<xr:ValueId>89a23861-636e-495b-a55d-b15fbdfdb515</xr:ValueId>
 			</xr:GeneratedType>
 
 		</InternalInfo>
 <Properties>
 		<Name>Организации</Name>
 </Properties><ChildObjects>
-<Attribute uuid="f55b4f0a-7194-4e29-99a1-560412c055e2">
+<Attribute uuid="403f0313-e313-4edb-820b-8bbd3645b076">
 	<Properties>
 		<Name>ИНН</Name>
 
@@ -67,7 +67,7 @@
 
 	</Properties>
 </Attribute>
-<Attribute uuid="f91846f0-4ebe-4ec4-86c4-f72f79f3f0c3">
+<Attribute uuid="52c5cf98-bc02-4ebd-a049-00b4746ce47e">
 	<Properties>
 		<Name>Руководитель</Name>
 
@@ -77,15 +77,15 @@
 
 	</Properties>
 </Attribute>
-<TabularSection uuid="6531cd3b-abb6-4619-97e9-2ed0298a154d">
+<TabularSection uuid="a511f938-e6c6-41a8-88e2-7f59618e28ba">
 				<InternalInfo>
 					<xr:GeneratedType name="ReportTabularSection.Организации.КонтактнаяИнформация" category="TabularSection">
-						<xr:TypeId>913b9984-b28f-47e2-bdde-80ffadf1f0ed</xr:TypeId>
-						<xr:ValueId>03421ed5-1078-4a37-bfbe-691d19b806e2</xr:ValueId>
+						<xr:TypeId>e692024e-5198-4bad-b0e2-4bf63dfd4d82</xr:TypeId>
+						<xr:ValueId>2117c222-06a5-40df-9a52-8262b19be47c</xr:ValueId>
 					</xr:GeneratedType>
 					<xr:GeneratedType name="ReportTabularSectionRow.Организации.КонтактнаяИнформация" category="TabularSectionRow">
-						<xr:TypeId>2b664021-0353-4d1b-8370-f521b0fb139d</xr:TypeId>
-						<xr:ValueId>0d2d5612-91c0-4d98-b98b-7a4ddddcf9af</xr:ValueId>
+						<xr:TypeId>0d73520c-599f-477c-a83f-070300c7fb7d</xr:TypeId>
+						<xr:ValueId>5f21ee49-e77b-4d4e-b09b-221b2f97303a</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 	<Properties>
@@ -96,7 +96,7 @@
 </Properties>
 		<ChildObjects>
 
-<Attribute uuid="26e7435b-d86d-460a-9744-750caf2d3a2a">
+<Attribute uuid="e54cf5bf-ce4e-46dc-8999-fa98e670b52e">
 <Properties>
 
 		<Name>ВидИнформации</Name>
@@ -112,7 +112,7 @@
 </Properties>
 </Attribute>
 
-<Attribute uuid="62dfc8f1-076a-489f-bcb0-cfc010af9f11">
+<Attribute uuid="60ab0b6b-2531-4659-b94d-170b302076fa">
 <Properties>
 
 		<Name>Значение</Name>
