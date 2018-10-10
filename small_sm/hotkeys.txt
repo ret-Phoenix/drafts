@@ -1,0 +1,6 @@
+hotkey|Alt U|^(t)|
+hotkey|Ctrl D5|^(t){TAB}{ENTER}{DOWN}{ENTER}|
+script|Alt K|scripts.js|
+external|Alt K|wscript|scripts.js
+external|Alt Shift D8|c:/work/portable/SmartConfigurator/system/OneScript/bin/oscript.exe|c:/work/portable/SmartConfigurator/scripts/Навигация/НавигацияПоМодулю.os СписокМетодов >res.log
+external|Alt Shift D9|oscript.exe|one.os
